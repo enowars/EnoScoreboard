@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Scoreboard</title>
+  <link rel="stylesheet" href="/css/bootstrap-3.3.7.min.css">
+  <link rel="stylesheet" href="/css/fontawesome-5.1.0.css">
+  <link rel="stylesheet" href="/css/scoreboard.css">
+</head>
+<body>
+  <div  id="app">
+    <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse fixed-top">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#scoreboardNavigation" aria-controls="scoreboardNavigation" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#">Scoreboard</a>
+
+      <div class="collapse navbar-collapse" id="scoreboardNavigation">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#" v-on:click="reloadScoreboard">Reload</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="scoreboard container-fluid">
+      <div class="row">
+        <div class="col-lg-12">
+          <h1>Round {{currentRound}}</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <table class="table table-hover table-bordered">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Team</th>
+                <th is="service-item" v-for="idx in serviceIds" v-bind:service="services[idx]" v-bind:id="idx"></th>
+                <th>Total</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr is="team-item" v-for="(team, index) in teams" v-bind:team="team" v-bind:rank="index" v-bind:key="team.id" v-bind:sids="serviceIds" v-bind:statusdesc="statusdesc"></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="/js/jquery-3.3.1.min.js"></script>
+  <script src="/js/bootstrap-3.3.7.min.js"></script>
+  <script src="/js/socket.io-1.3.6.min.js"></script>
+  <script src="/js/vue.prod.js"></script>
+
+  <script>
+
+    Vue.component('service-item', {
+      props: ['service', 'id'],
+      template: `<th :id=id>{{service.Name}}</th>`
+    })
+    Vue.component('team-item',{
+      props: ['team', 'rank', 'sids', 'statusdesc'],
+      template: `
+      <tr>
+      <td><span>{{rank+1}}</span></td>
+      <td><span>{{team.Name}}</span></td>
+      <td is="servicepoints-item" v-for="idx in sids" v-bind:service="team.ServiceDetails[idx]" v-bind:statusdesc="statusdesc"></td>
+      <td is="totalpoints-item" v-bind:team=team></td>
+      </tr>`
+    })
+    Vue.component('totalpoints-item', {
+      props: ['team'],
+      template: `
+      <td>
+      <div>
+      <div class="row">
+      <div class="col-lg-2"><i class="fas fa-flag"></i></div><div class="col-lg-10">{{team.AttackPoints}}</div>
+      </div>
+      <div class="row">
+      <div class="col-lg-2"><i class="fas fa-shield-alt"></i></div><div class="col-lg-10">{{team.LostDefensePoints}}</div>
+      </div>
+      <div class="row">
+      <div class="col-lg-2"><i class="fas fa-tachometer-alt"></i></div><div class="col-lg-10">{{team.ServiceLevelAgreementPoints}}</div>
+      </div>
+      <div class="row">
+      <div class="col-lg-2"><i class="fas fa-plus-square"></i></div><div class="col-lg-10">{{team.TotalPoints}}</div>
+      </div>
+      </div>
+      </td>`
+    })
+    Vue.component('servicepoints-item', {
+      props: ['service', 'statusdesc'],
+      template: `
+      <td :class="['status-'+service.ServiceStatus]">
+      <div>
+      <div class="row">
+      <div class="col-lg-2"><i class="fas fa-flag"></i></div><div class="col-lg-10">{{service.AttackPoints}}</div>
+      </div>
+      <div class="row">
+      <div class="col-lg-2"><i class="fas fa-shield-alt"></i></div><div class="col-lg-10">{{service.LostDefensePoints}}</div>
+      </div>
+      <div class="row">
+      <div class="col-lg-2"><i class="fas fa-tachometer-alt"></i></div><div class="col-lg-10">{{service.ServiceLevelAgreementPoints}}</div>
+      </div>
+      <div class="row">
+      <div class="col-lg-2"><i class="fas fa-server"></i></div><div :class="['col-lg-10', 'status-'+service.ServiceStatus]">{{statusdesc[service.ServiceStatus]}}</div>
+      </div>
+      </div>
+      </td>`
+    })
+
+    var app = new Vue({
+      el: '#app',
+      data: {
+        currentRound: 0,
+        services: [],
+        serviceIds: [],
+        statusdesc: {
+          "0": "Checker error",
+          "1": "Ok",
+          "2": "Recovering",
+          "3": "Mumble",
+          "4": "Down",
+        },
+        teams: [],
+        socketio: null,
+      },
+      methods: {
+        updateScoreboard: function(json_data) {
+          if(json_data == undefined) {
+            return
+          }
+          json = JSON.parse(json_data)
+          this.currentRound = json['CurrentRound'],
+          this.teams = json['Teams'],
+          this.services = json['Services']
+          this.serviceIds = Object.keys(json['Services'])
+        },
+        reloadScoreboard: function() {
+          this.socketio.emit('reloadScoreboard', {}, this.updateScoreboard)
+        }
+      },
+      created: function() {
+        parent = this
+        this.socketio = io.connect(document.location.protocol + '//' + document.domain + ':' + location.port);
+        this.socketio.on('connect', function() {
+          setTimeout(parent.reloadScoreboard, 1000)
+        })
+        this.socketio.on('updateScoreboard', this.updateScoreboard)
+      }
+    })
+  </script>
+</body>
+</html>

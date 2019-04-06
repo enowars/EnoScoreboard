@@ -1,0 +1,9 @@
+version: '2.3'
+services:
+  enoscoreboard:
+    build: .
+    volumes:
+      - .:/service
+      - ../data:/data
+    ports:
+      - "80:8000"
