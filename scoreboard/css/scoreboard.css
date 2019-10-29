@@ -1,6 +1,162 @@
 body {
-  padding-top: 5rem;
+    padding-top: 7rem;
+    background: black;
+    color: white;
+    font-size: 16px;
+    font-family: monospace;
 }
+
+
+/* font ist used for ENOWARS text logo */
+@font-face {
+    font-family: GlitchCity;
+    src: url(/webfonts/GlitchCity.ttf);
+}
+
+.glitch {
+    font-family: 'GlitchCity';
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+/* header bar for navigation */
+.navbar {
+    height: 60px;
+    border-radius: 5px;
+    border-bottom: 3px white solid;
+    background-color: black;
+    box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
+    display: inline;
+    position: fixed;
+    z-index: 10;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    padding-top: 12px;
+}
+
+.navitem {
+    width: 300px;
+    padding: 12px;
+    color: white;
+    border-radius: 5px;
+    background: black;
+}
+
+.navitem-weighty {
+    font-weight: 400;
+    font-size: 120%;
+    margin-right: 40px;
+}
+
+.navitemright {
+    right: 95px;
+}
+
+.navitem:hover {
+    background: white;
+    color: black;
+}
+
+.enologo {
+    position: fixed;
+    top: 2.5px;
+    right: 2.5px;
+    width: 55px;
+    z-index: 1;
+    -ms-transform: rotate(30deg); /* IE 9 */
+    -webkit-transform: rotate(30deg); /* Safari 3-8 */
+    transform: rotate(30deg);
+}
+
+
+/* history navigation to change round */
+.gotoform {
+    float: right; 
+}
+
+.gotoform-inputfield {
+    text-align: center;
+    width: 60px; 
+    background-color: grey;
+}
+
+.navarrow {
+    padding: 12px;
+    color: white;
+    border-radius: 5px;
+    background: black;
+}
+
+.navarrow:hover {
+    background: white;
+    color: black;
+}
+
+.navarrowdisabled {
+    padding: 12px;
+    color: black;
+    border-radius: 5px;
+    background: black;
+}
+
+
+/* links */
+a,a:link, a:visited {
+	color:white;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	color:black;
+	text-decoration: none;
+}
+
+
+/* footer bar for additional references */
+.footerbar {
+    margin-top: 5rem;
+    height: 55px;
+    text-align: center;
+    border-radius: 5px;
+    border-top: 3px white solid;
+    box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
+    padding: 6px;
+}
+
+.footeritem {
+    padding: 12px;
+    color: white;
+    border-radius: 5px;
+    background: black;
+}
+
+.footeritem-left {
+    margin-left: 12px;
+    float: left;
+}
+
+.footeritem-center {
+    display: inline-block;
+}    
+
+.footeritem-right {
+    margin-right: 12px;
+    float: right;
+}
+
+.footeritem:hover {
+    background: white;
+    color: black;
+}
+
+
+/* table text formatting */
 .scoreboard {
 }
 
@@ -8,22 +164,141 @@ body {
     text-align: center
 }
 
-td.status-0 {
+.teamlink {
+}
+
+.teamlink:hover {
+    color: black;
+    background: white;
+}
+
+.teamurl {
+  font-size: 55%;
+}
+
+td.status-Unchecked {
+    color: black;
     background: grey;
 }
 
-td.status-1 {
+td.status-Ok {
+    color: black;
     background: chartreuse;
 }
 
-td.status-4 {
-    background: red;
-}
-
-td.status-2 {
+td.status-Recovering {
+    color: black;
     background: lightskyblue;
 }
 
-td.status-3 {
+td.status-Mumbling {
+    color: black;
     background: orange;
+}
+
+td.status-Down {
+    color: black;
+    background: red;
+}
+
+i.icon {
+    width: 16px;
+}
+
+.firstblood {
+    font-size: 60%;
+}
+
+.firstblooditem {
+    color: red;
+}
+
+.autoreloadicon {
+    color: lightgreen;
+}
+
+/* loading animation, source https://loading.io/css/, CC0 licensed, modified */
+.reloaditem {
+    display: inline-block;
+    position:fixed;
+    margin-left: 40px;
+    z-index: 12;
+    border-radius: 5px;
+}
+.lds-spinner {
+    display: inline-block;
+    position: relative;
+    width: 16px;
+    height: 16px;
+}
+.lds-spinner div {
+    transform-origin: 16px 16px;
+    animation: lds-spinner 1.2s linear infinite;
+}
+.lds-spinner div:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 3px;
+    left: 14px;
+    width: 2px;
+    height: 8px;
+    border-radius: 20%;
+    background: chartreuse;
+}
+.lds-spinner div:nth-child(1) {
+    transform: rotate(0deg);
+    animation-delay: -1.1s;
+}
+.lds-spinner div:nth-child(2) {
+  transform: rotate(30deg);
+  animation-delay: -1s;
+}
+.lds-spinner div:nth-child(3) {
+    transform: rotate(60deg);
+    animation-delay: -0.9s;
+}
+.lds-spinner div:nth-child(4) {
+    transform: rotate(90deg);
+    animation-delay: -0.8s;
+}
+.lds-spinner div:nth-child(5) {
+  transform: rotate(120deg);
+  animation-delay: -0.7s;
+}
+.lds-spinner div:nth-child(6) {
+    transform: rotate(150deg);
+    animation-delay: -0.6s;
+}
+.lds-spinner div:nth-child(7) {
+    transform: rotate(180deg);
+    animation-delay: -0.5s;
+}
+.lds-spinner div:nth-child(8) {
+    transform: rotate(210deg);
+    animation-delay: -0.4s;
+}
+.lds-spinner div:nth-child(9) {
+    transform: rotate(240deg);
+    animation-delay: -0.3s;
+}
+.lds-spinner div:nth-child(10) {
+    transform: rotate(270deg);
+    animation-delay: -0.2s;
+}
+.lds-spinner div:nth-child(11) {
+    transform: rotate(300deg);
+    animation-delay: -0.1s;
+}
+.lds-spinner div:nth-child(12) {
+    transform: rotate(330deg);
+    animation-delay: 0s;
+}
+@keyframes lds-spinner {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
 }
