@@ -1,0 +1,3325 @@
+{
+  "standings": [
+    {
+      "pos": 1,
+      "score": 19712.45274338363,
+      "taskStats": {
+        "Casino Attack": {
+          "points": 0.0
+        },
+        "Casino Defense": {
+          "points": -54.0
+        },
+        "Casino SLA": {
+          "points": 1296.810896006044
+        },
+        "CyberAlchemist Attack": {
+          "points": 455.8166666666662
+        },
+        "CyberAlchemist Defense": {
+          "points": 0.0
+        },
+        "CyberAlchemist SLA": {
+          "points": 1315.4254064750305
+        },
+        "Explotify Attack": {
+          "points": 74.0
+        },
+        "Explotify Defense": {
+          "points": 0.0
+        },
+        "Explotify SLA": {
+          "points": 1290.606059183049
+        },
+        "ScavengePad Attack": {
+          "points": 329.0
+        },
+        "ScavengePad Defense": {
+          "points": -3.0
+        },
+        "ScavengePad SLA": {
+          "points": 1439.522142934938
+        },
+        "Shittr Attack": {
+          "points": 2904.180952380933
+        },
+        "Shittr Defense": {
+          "points": -25.36358566101486
+        },
+        "Shittr SLA": {
+          "points": 1222.352854130099
+        },
+        "Telescopy Attack": {
+          "points": 682.0539321789317
+        },
+        "Telescopy Defense": {
+          "points": -13.727171322029717
+        },
+        "Telescopy SLA": {
+          "points": 825.2432974583925
+        },
+        "Total Attack": {
+          "points": 6962.705050505024
+        },
+        "Total Defense": {
+          "points": -156.31289895187726
+        },
+        "Total SLA": {
+          "points": 12906.060591830485
+        },
+        "Voting Attack": {
+          "points": 1187.8201659451613
+        },
+        "Voting Defense": {
+          "points": 0.0
+        },
+        "Voting SLA": {
+          "points": 1576.0285530408366
+        },
+        "borderpatrol Attack": {
+          "points": 0.0
+        },
+        "borderpatrol Defense": {
+          "points": -55.22214196883266
+        },
+        "borderpatrol SLA": {
+          "points": 1445.7269797579338
+        },
+        "deaddrop Attack": {
+          "points": 1243.666666666665
+        },
+        "deaddrop Defense": {
+          "points": -5.0
+        },
+        "deaddrop SLA": {
+          "points": 1129.2803017851686
+        },
+        "piano Attack": {
+          "points": 86.16666666666666
+        },
+        "piano Defense": {
+          "points": 0.0
+        },
+        "piano SLA": {
+          "points": 1365.0641010589934
+        }
+      },
+      "team": "saarsec"
+    },
+    {
+      "pos": 2,
+      "score": 16399.871177752968,
+      "taskStats": {
+        "Casino Attack": {
+          "points": 14.0
+        },
+        "Casino Defense": {
+          "points": -26.0
+        },
+        "Casino SLA": {
+          "points": 1166.5093227231412
+        },
+        "CyberAlchemist Attack": {
+          "points": 92.08333333333334
+        },
+        "CyberAlchemist Defense": {
+          "points": -6.681792830507429
+        },
+        "CyberAlchemist SLA": {
+          "points": 1321.6302432980258
+        },
+        "Explotify Attack": {
+          "points": 0.0
+        },
+        "Explotify Defense": {
+          "points": 0.0
+        },
+        "Explotify SLA": {
+          "points": 1327.835080121021
+        },
+        "ScavengePad Attack": {
+          "points": 0.0
+        },
+        "ScavengePad Defense": {
+          "points": -45.817928305074275
+        },
+        "ScavengePad SLA": {
+          "points": 1427.1124692889473
+        },
+        "Shittr Attack": {
+          "points": 1834.583333333344
+        },
+        "Shittr Defense": {
+          "points": -75.68179283050742
+        },
+        "Shittr SLA": {
+          "points": 1346.4495905900073
+        },
+        "Telescopy Attack": {
+          "points": 1102.7195748695738
+        },
+        "Telescopy Defense": {
+          "points": -18.68179283050743
+        },
+        "Telescopy SLA": {
+          "points": 1011.3884021482559
+        },
+        "Total Attack": {
+          "points": 4036.886241536251
+        },
+        "Total Defense": {
+          "points": -263.8579985789812
+        },
+        "Total SLA": {
+          "points": 12626.842934795697
+        },
+        "Voting Attack": {
+          "points": 129.66666666666652
+        },
+        "Voting Defense": {
+          "points": 0.0
+        },
+        "Voting SLA": {
+          "points": 1513.9801848108827
+        },
+        "borderpatrol Attack": {
+          "points": 516.7499999999998
+        },
+        "borderpatrol Defense": {
+          "points": -23.40896415253715
+        },
+        "borderpatrol SLA": {
+          "points": 1222.3528541300996
+        },
+        "deaddrop Attack": {
+          "points": 95.91666666666657
+        },
+        "deaddrop Defense": {
+          "points": -64.90393479934008
+        },
+        "deaddrop SLA": {
+          "points": 1116.8706281391778
+        },
+        "piano Attack": {
+          "points": 251.16666666666686
+        },
+        "piano Defense": {
+          "points": -2.681792830507429
+        },
+        "piano SLA": {
+          "points": 1172.7141595461364
+        }
+      },
+      "team": "Bushwhackers"
+    },
+    {
+      "pos": 3,
+      "score": 14154.184435715906,
+      "taskStats": {
+        "Casino Attack": {
+          "points": 0.0
+        },
+        "Casino Defense": {
+          "points": -57.0
+        },
+        "Casino SLA": {
+          "points": 1166.5093227231412
+        },
+        "CyberAlchemist Attack": {
+          "points": 97.75
+        },
+        "CyberAlchemist Defense": {
+          "points": 0.0
+        },
+        "CyberAlchemist SLA": {
+          "points": 490.1821090166387
+        },
+        "Explotify Attack": {
+          "points": 0.0
+        },
+        "Explotify Defense": {
+          "points": 0.0
+        },
+        "Explotify SLA": {
+          "points": 1271.9915487140627
+        },
+        "ScavengePad Attack": {
+          "points": 0.0
+        },
+        "ScavengePad Defense": {
+          "points": -3.0
+        },
+        "ScavengePad SLA": {
+          "points": 1420.907632465952
+        },
+        "Shittr Attack": {
+          "points": 380.86666666666645
+        },
+        "Shittr Defense": {
+          "points": -195.8277842346498
+        },
+        "Shittr SLA": {
+          "points": 1005.1835653252604
+        },
+        "Telescopy Attack": {
+          "points": 565.3996975246977
+        },
+        "Telescopy Defense": {
+          "points": -245.63336951150848
+        },
+        "Telescopy SLA": {
+          "points": 949.3400339183014
+        },
+        "Total Attack": {
+          "points": 3168.629928404929
+        },
+        "Total Defense": {
+          "points": -605.080678044482
+        },
+        "Total SLA": {
+          "points": 11590.635185355459
+        },
+        "Voting Attack": {
+          "points": 1098.2802308802304
+        },
+        "Voting Defense": {
+          "points": 0.0
+        },
+        "Voting SLA": {
+          "points": 1551.209205748855
+        },
+        "borderpatrol Attack": {
+          "points": 0.0
+        },
+        "borderpatrol Defense": {
+          "points": -37.37352675185019
+        },
+        "borderpatrol SLA": {
+          "points": 1296.8108960060442
+        },
+        "deaddrop Attack": {
+          "points": 0.0
+        },
+        "deaddrop Defense": {
+          "points": -66.24599754647355
+        },
+        "deaddrop SLA": {
+          "points": 1185.123833192127
+        },
+        "piano Attack": {
+          "points": 1026.3333333333344
+        },
+        "piano Defense": {
+          "points": 0.0
+        },
+        "piano SLA": {
+          "points": 1253.3770382450764
+        }
+      },
+      "team": "RedGKFRocket"
+    },
+    {
+      "pos": 4,
+      "score": 14110.553050608854,
+      "taskStats": {
+        "Casino Attack": {
+          "points": 0.0
+        },
+        "Casino Defense": {
+          "points": -53.0
+        },
+        "Casino SLA": {
+          "points": 1327.8350801210213
+        },
+        "CyberAlchemist Attack": {
+          "points": 3.3333333333333335
+        },
+        "CyberAlchemist Defense": {
+          "points": -5.0
+        },
+        "CyberAlchemist SLA": {
+          "points": 725.9659082904652
+        },
+        "Explotify Attack": {
+          "points": 0.0
+        },
+        "Explotify Defense": {
+          "points": 0.0
+        },
+        "Explotify SLA": {
+          "points": 1098.256117670191
+        },
+        "ScavengePad Attack": {
+          "points": 0.0
+        },
+        "ScavengePad Defense": {
+          "points": -24.0
+        },
+        "ScavengePad SLA": {
+          "points": 1334.0399169440168
+        },
+        "Shittr Attack": {
+          "points": 1161.066666666676
+        },
+        "Shittr Defense": {
+          "points": -115.06923406916316
+        },
+        "Shittr SLA": {
+          "points": 1098.2561176701918
+        },
+        "Telescopy Attack": {
+          "points": 444.63411310911357
+        },
+        "Telescopy Defense": {
+          "points": -18.454342644059434
+        },
+        "Telescopy SLA": {
+          "points": 930.725523449315
+        },
+        "Total Attack": {
+          "points": 2904.9614579864674
+        },
+        "Total Defense": {
+          "points": -329.20006132611474
+        },
+        "Total SLA": {
+          "points": 11534.791653948501
+        },
+        "Voting Attack": {
+          "points": 750.8440115440116
+        },
+        "Voting Defense": {
+          "points": -11.0
+        },
+        "Voting SLA": {
+          "points": 1526.3898584568735
+        },
+        "borderpatrol Attack": {
+          "points": 445.41666666666606
+        },
+        "borderpatrol Defense": {
+          "points": -29.772549813552008
+        },
+        "borderpatrol SLA": {
+          "points": 1141.689975431159
+        },
+        "deaddrop Attack": {
+          "points": 0.0
+        },
+        "deaddrop Defense": {
+          "points": -54.90393479934009
+        },
+        "deaddrop SLA": {
+          "points": 1129.2803017851686
+        },
+        "piano Attack": {
+          "points": 99.66666666666661
+        },
+        "piano Defense": {
+          "points": -18.0
+        },
+        "piano SLA": {
+          "points": 1222.3528541300993
+        }
+      },
+      "team": "FluxFingers"
+    },
+    {
+      "pos": 5,
+      "score": 13253.214355131317,
+      "taskStats": {
+        "Casino Attack": {
+          "points": 1402.0
+        },
+        "Casino Defense": {
+          "points": 0.0
+        },
+        "Casino SLA": {
+          "points": 1141.6899754311594
+        },
+        "CyberAlchemist Attack": {
+          "points": 102.83333333333334
+        },
+        "CyberAlchemist Defense": {
+          "points": -9.0
+        },
+        "CyberAlchemist SLA": {
+          "points": 856.2674815733699
+        },
+        "Explotify Attack": {
+          "points": 0.0
+        },
+        "Explotify Defense": {
+          "points": 0.0
+        },
+        "Explotify SLA": {
+          "points": 1054.8222599092237
+        },
+        "ScavengePad Attack": {
+          "points": 0.0
+        },
+        "ScavengePad Defense": {
+          "points": -44.72717132202971
+        },
+        "ScavengePad SLA": {
+          "points": 955.5448707412968
+        },
+        "Shittr Attack": {
+          "points": 978.6166666666655
+        },
+        "Shittr Defense": {
+          "points": -320.5283081699755
+        },
+        "Shittr SLA": {
+          "points": 980.3642180332786
+        },
+        "Telescopy Attack": {
+          "points": 369.46991341991344
+        },
+        "Telescopy Defense": {
+          "points": -107.30727238551725
+        },
+        "Telescopy SLA": {
+          "points": 384.6998830257165
+        },
+        "Total Attack": {
+          "points": 3651.545129870128
+        },
+        "Total Defense": {
+          "points": -673.5405536192457
+        },
+        "Total SLA": {
+          "points": 10275.209778880435
+        },
+        "Voting Attack": {
+          "points": 774.6252164502159
+        },
+        "Voting Defense": {
+          "points": -8.0
+        },
+        "Voting SLA": {
+          "points": 1303.0157328290395
+        },
+        "borderpatrol Attack": {
+          "points": 0.0
+        },
+        "borderpatrol Defense": {
+          "points": -50.407476375609214
+        },
+        "borderpatrol SLA": {
+          "points": 1309.2205696520352
+        },
+        "deaddrop Attack": {
+          "points": 24.0
+        },
+        "deaddrop Defense": {
+          "points": -120.8885325356066
+        },
+        "deaddrop SLA": {
+          "points": 1098.2561176701918
+        },
+        "piano Attack": {
+          "points": 0.0
+        },
+        "piano Defense": {
+          "points": -12.68179283050743
+        },
+        "piano SLA": {
+          "points": 1191.3286700151225
+        }
+      },
+      "team": "FAUST"
+    },
+    {
+      "pos": 6,
+      "score": 12909.485512764124,
+      "taskStats": {
+        "Casino Attack": {
+          "points": 0.0
+        },
+        "Casino Defense": {
+          "points": -56.0
+        },
+        "Casino SLA": {
+          "points": 1203.7383436611133
+        },
+        "CyberAlchemist Attack": {
+          "points": 2.0
+        },
+        "CyberAlchemist Defense": {
+          "points": -11.68179283050743
+        },
+        "CyberAlchemist SLA": {
+          "points": 204.75961515884921
+        },
+        "Explotify Attack": {
+          "points": 0.0
+        },
+        "Explotify Defense": {
+          "points": 0.0
+        },
+        "Explotify SLA": {
+          "points": 1321.6302432980262
+        },
+        "ScavengePad Attack": {
+          "points": 0.0
+        },
+        "ScavengePad Defense": {
+          "points": -42.72717132202971
+        },
+        "ScavengePad SLA": {
+          "points": 1427.1124692889475
+        },
+        "Shittr Attack": {
+          "points": 391.26666666666654
+        },
+        "Shittr Defense": {
+          "points": -140.9493132908624
+        },
+        "Shittr SLA": {
+          "points": 1346.4495905900076
+        },
+        "Telescopy Attack": {
+          "points": 632.8612415362402
+        },
+        "Telescopy Defense": {
+          "points": 0.0
+        },
+        "Telescopy SLA": {
+          "points": 794.2191133434152
+        },
+        "Total Attack": {
+          "points": 1719.9548562548553
+        },
+        "Total Defense": {
+          "points": -407.30936566918484
+        },
+        "Total SLA": {
+          "points": 11596.840022178454
+        },
+        "Voting Attack": {
+          "points": 693.8269480519485
+        },
+        "Voting Defense": {
+          "points": -16.68179283050743
+        },
+        "Voting SLA": {
+          "points": 1551.209205748855
+        },
+        "borderpatrol Attack": {
+          "points": 0.0
+        },
+        "borderpatrol Defense": {
+          "points": -44.17676347731038
+        },
+        "borderpatrol SLA": {
+          "points": 1290.6060591830487
+        },
+        "deaddrop Attack": {
+          "points": 0.0
+        },
+        "deaddrop Defense": {
+          "points": -95.0925319179675
+        },
+        "deaddrop SLA": {
+          "points": 1135.4851386081639
+        },
+        "piano Attack": {
+          "points": 0.0
+        },
+        "piano Defense": {
+          "points": 0.0
+        },
+        "piano SLA": {
+          "points": 1321.6302432980258
+        }
+      },
+      "team": "HgbSec"
+    },
+    {
+      "pos": 7,
+      "score": 12114.009046060393,
+      "taskStats": {
+        "Casino Attack": {
+          "points": 0.0
+        },
+        "Casino Defense": {
+          "points": 0.0
+        },
+        "Casino SLA": {
+          "points": 1358.859264235998
+        },
+        "CyberAlchemist Attack": {
+          "points": 137.59999999999994
+        },
+        "CyberAlchemist Defense": {
+          "points": -7.681792830507429
+        },
+        "CyberAlchemist SLA": {
+          "points": 1005.1835653252602
+        },
+        "Explotify Attack": {
+          "points": 0.0
+        },
+        "Explotify Defense": {
+          "points": 0.0
+        },
+        "Explotify SLA": {
+          "points": 1371.268937881989
+        },
+        "ScavengePad Attack": {
+          "points": 75.0
+        },
+        "ScavengePad Defense": {
+          "points": 0.0
+        },
+        "ScavengePad SLA": {
+          "points": 1278.1963855370582
+        },
+        "Shittr Attack": {
+          "points": 0.0
+        },
+        "Shittr Defense": {
+          "points": -20.68179283050743
+        },
+        "Shittr SLA": {
+          "points": 1129.2803017851684
+        },
+        "Telescopy Attack": {
+          "points": 790.7654151404147
+        },
+        "Telescopy Defense": {
+          "points": -89.31878421640764
+        },
+        "Telescopy SLA": {
+          "points": 775.6046028744287
+        },
+        "Total Attack": {
+          "points": 2362.05545843046
+        },
+        "Total Defense": {
+          "points": -231.62886056971183
+        },
+        "Total SLA": {
+          "points": 9983.582448199644
+        },
+        "Voting Attack": {
+          "points": 534.1067099567098
+        },
+        "Voting Defense": {
+          "points": -57.13331287599383
+        },
+        "Voting SLA": {
+          "points": 843.8578079273788
+        },
+        "borderpatrol Attack": {
+          "points": 0.0
+        },
+        "borderpatrol Defense": {
+          "points": -44.813177816295514
+        },
+        "borderpatrol SLA": {
+          "points": 477.77243537064794
+        },
+        "deaddrop Attack": {
+          "points": 824.5833333333354
+        },
+        "deaddrop Defense": {
+          "points": -8.0
+        },
+        "deaddrop SLA": {
+          "points": 744.5804187594514
+        },
+        "piano Attack": {
+          "points": 0.0
+        },
+        "piano Defense": {
+          "points": -4.0
+        },
+        "piano SLA": {
+          "points": 998.9787285022641
+        }
+      },
+      "team": "NoPwnIntended"
+    },
+    {
+      "pos": 8,
+      "score": 11944.094923907189,
+      "taskStats": {
+        "Casino Attack": {
+          "points": 0.0
+        },
+        "Casino Defense": {
+          "points": -55.0
+        },
+        "Casino SLA": {
+          "points": 1402.2931219969657
+        },
+        "CyberAlchemist Attack": {
+          "points": 134.96666666666667
+        },
+        "CyberAlchemist Defense": {
+          "points": -27.40896415253715
+        },
+        "CyberAlchemist SLA": {
+          "points": 881.0868288653514
+        },
+        "Explotify Attack": {
+          "points": 0.0
+        },
+        "Explotify Defense": {
+          "points": 0.0
+        },
+        "Explotify SLA": {
+          "points": 1358.8592642359981
+        },
+        "ScavengePad Attack": {
+          "points": 39.0
+        },
+        "ScavengePad Defense": {
+          "points": -38.0
+        },
+        "ScavengePad SLA": {
+          "points": 1197.5335068381182
+        },
+        "Shittr Attack": {
+          "points": 461.8333333333333
+        },
+        "Shittr Defense": {
+          "points": -280.907782941462
+        },
+        "Shittr SLA": {
+          "points": 1172.7141595461362
+        },
+        "Telescopy Attack": {
+          "points": 553.2871572871569
+        },
+        "Telescopy Defense": {
+          "points": -224.1145663732619
+        },
+        "Telescopy SLA": {
+          "points": 682.5320505294972
+        },
+        "Total Attack": {
+          "points": 1753.7609307359305
+        },
+        "Total Defense": {
+          "points": -897.7094095215712
+        },
+        "Total SLA": {
+          "points": 11088.043402692829
+        },
+        "Voting Attack": {
+          "points": 555.9237734487737
+        },
+        "Voting Defense": {
+          "points": -89.06467797022641
+        },
+        "Voting SLA": {
+          "points": 1551.209205748855
+        },
+        "borderpatrol Attack": {
+          "points": 8.75
+        },
+        "borderpatrol Defense": {
+          "points": -40.93595653289339
+        },
+        "borderpatrol SLA": {
+          "points": 1178.9189963691317
+        },
+        "deaddrop Attack": {
+          "points": 0.0
+        },
+        "deaddrop Defense": {
+          "points": -66.73236192408629
+        },
+        "deaddrop SLA": {
+          "points": 1098.2561176701918
+        },
+        "piano Attack": {
+          "points": 0.0
+        },
+        "piano Defense": {
+          "points": -75.545099627104
+        },
+        "piano SLA": {
+          "points": 564.6401508925836
+        }
+      },
+      "team": "No0wnY0u"
+    },
+    {
+      "pos": 9,
+      "score": 10058.864297336657,
+      "taskStats": {
+        "Casino Attack": {
+          "points": 0.0
+        },
+        "Casino Defense": {
+          "points": -55.0
+        },
+        "Casino SLA": {
+          "points": 1396.0882851739702
+        },
+        "CyberAlchemist Attack": {
+          "points": 0.0
+        },
+        "CyberAlchemist Defense": {
+          "points": -3.0
+        },
+        "CyberAlchemist SLA": {
+          "points": 99.27738916792686
+        },
+        "Explotify Attack": {
+          "points": 0.0
+        },
+        "Explotify Defense": {
+          "points": 0.0
+        },
+        "Explotify SLA": {
+          "points": 1278.196385537058
+        },
+        "ScavengePad Attack": {
+          "points": 0.0
+        },
+        "ScavengePad Defense": {
+          "points": 0.0
+        },
+        "ScavengePad SLA": {
+          "points": 1315.4254064750303
+        },
+        "Shittr Attack": {
+          "points": 19.747619047619047
+        },
+        "Shittr Defense": {
+          "points": -316.257600292024
+        },
+        "Shittr SLA": {
+          "points": 1092.0512808471963
+        },
+        "Telescopy Attack": {
+          "points": 99.77279942279947
+        },
+        "Telescopy Defense": {
+          "points": -18.305001412344318
+        },
+        "Telescopy SLA": {
+          "points": 217.16928880484005
+        },
+        "Total Attack": {
+          "points": 484.77276334776315
+        },
+        "Total Defense": {
+          "points": -552.2021611396456
+        },
+        "Total SLA": {
+          "points": 10126.29369512854
+        },
+        "Voting Attack": {
+          "points": 365.2523448773447
+        },
+        "Voting Defense": {
+          "points": -27.988418176953942
+        },
+        "Voting SLA": {
+          "points": 1451.9318165809289
+        },
+        "borderpatrol Attack": {
+          "points": 0.0
+        },
+        "borderpatrol Defense": {
+          "points": -51.540349138325226
+        },
+        "borderpatrol SLA": {
+          "points": 1005.1835653252599
+        },
+        "deaddrop Attack": {
+          "points": 0.0
+        },
+        "deaddrop Defense": {
+          "points": -62.74720645898318
+        },
+        "deaddrop SLA": {
+          "points": 1135.485138608164
+        },
+        "piano Attack": {
+          "points": 0.0
+        },
+        "piano Defense": {
+          "points": -17.36358566101486
+        },
+        "piano SLA": {
+          "points": 1135.485138608164
+        }
+      },
+      "team": "SharLike"
+    },
+    {
+      "pos": 10,
+      "score": 9101.311066299995,
+      "taskStats": {
+        "Casino Attack": {
+          "points": 24.0
+        },
+        "Casino Defense": {
+          "points": -25.0
+        },
+        "Casino SLA": {
+          "points": 986.5690548562737
+        },
+        "CyberAlchemist Attack": {
+          "points": 28.35
+        },
+        "CyberAlchemist Defense": {
+          "points": -94.57633504055248
+        },
+        "CyberAlchemist SLA": {
+          "points": 515.0014563086206
+        },
+        "Explotify Attack": {
+          "points": 10.0
+        },
+        "Explotify Defense": {
+          "points": 0.0
+        },
+        "Explotify SLA": {
+          "points": 1240.9673645990858
+        },
+        "ScavengePad Attack": {
+          "points": 0.0
+        },
+        "ScavengePad Defense": {
+          "points": -10.68179283050743
+        },
+        "ScavengePad SLA": {
+          "points": 868.6771552193607
+        },
+        "Shittr Attack": {
+          "points": 0.0
+        },
+        "Shittr Defense": {
+          "points": -312.3377924864392
+        },
+        "Shittr SLA": {
+          "points": 1067.2319335552145
+        },
+        "Telescopy Attack": {
+          "points": 177.1209096459097
+        },
+        "Telescopy Defense": {
+          "points": -298.1531131915647
+        },
+        "Telescopy SLA": {
+          "points": 843.8578079273788
+        },
+        "Total Attack": {
+          "points": 1291.8802891552878
+        },
+        "Total Defense": {
+          "points": -989.0278378628137
+        },
+        "Total SLA": {
+          "points": 8798.458615007521
+        },
+        "Voting Attack": {
+          "points": 268.90937950937945
+        },
+        "Voting Defense": {
+          "points": -177.3247405341087
+        },
+        "Voting SLA": {
+          "points": 986.5690548562739
+        },
+        "borderpatrol Attack": {
+          "points": 405.08333333333263
+        },
+        "borderpatrol Defense": {
+          "points": 0.0
+        },
+        "borderpatrol SLA": {
+          "points": 744.5804187594514
+        },
+        "deaddrop Attack": {
+          "points": 378.41666666666595
+        },
+        "deaddrop Defense": {
+          "points": -45.22689245761143
+        },
+        "deaddrop SLA": {
+          "points": 998.9787285022645
+        },
+        "piano Attack": {
+          "points": 0.0
+        },
+        "piano Defense": {
+          "points": -25.727171322029715
+        },
+        "piano SLA": {
+          "points": 546.0256404235973
+        }
+      },
+      "team": "TUWTF"
+    },
+    {
+      "pos": 11,
+      "score": 8739.721594665114,
+      "taskStats": {
+        "Casino Attack": {
+          "points": 0.0
+        },
+        "Casino Defense": {
+          "points": -50.0
+        },
+        "Casino SLA": {
+          "points": 1185.1238331921265
+        },
+        "CyberAlchemist Attack": {
+          "points": 13.2
+        },
+        "CyberAlchemist Defense": {
+          "points": -26.432819730178036
+        },
+        "CyberAlchemist SLA": {
+          "points": 335.0611884417532
+        },
+        "Explotify Attack": {
+          "points": 0.0
+        },
+        "Explotify Defense": {
+          "points": 0.0
+        },
+        "Explotify SLA": {
+          "points": 1123.075464962173
+        },
+        "ScavengePad Attack": {
+          "points": 0.0
+        },
+        "ScavengePad Defense": {
+          "points": -4.0
+        },
+        "ScavengePad SLA": {
+          "points": 1253.3770382450764
+        },
+        "Shittr Attack": {
+          "points": 0.0
+        },
+        "Shittr Defense": {
+          "points": -323.21081420827926
+        },
+        "Shittr SLA": {
+          "points": 1129.2803017851686
+        },
+        "Telescopy Attack": {
+          "points": 138.9751665001665
+        },
+        "Telescopy Defense": {
+          "points": -242.15642810288222
+        },
+        "Telescopy SLA": {
+          "points": 725.9659082904653
+        },
+        "Total Attack": {
+          "points": 165.92004384504384
+        },
+        "Total Defense": {
+          "points": -1248.4551399816946
+        },
+        "Total SLA": {
+          "points": 9822.256690801765
+        },
+        "Voting Attack": {
+          "points": 13.744877344877343
+        },
+        "Voting Defense": {
+          "points": -346.4029244040097
+        },
+        "Voting SLA": {
+          "points": 1309.220569652035
+        },
+        "borderpatrol Attack": {
+          "points": 0.0
+        },
+        "borderpatrol Defense": {
+          "points": -44.897256420355596
+        },
+        "borderpatrol SLA": {
+          "points": 1129.280301785168
+        },
+        "deaddrop Attack": {
+          "points": 0.0
+        },
+        "deaddrop Defense": {
+          "points": -113.0625910299027
+        },
+        "deaddrop SLA": {
+          "points": 912.1110129803288
+        },
+        "piano Attack": {
+          "points": 0.0
+        },
+        "piano Defense": {
+          "points": -98.29230608608721
+        },
+        "piano SLA": {
+          "points": 719.7610714674685
+        }
+      },
+      "team": "crumbs@venice"
+    },
+    {
+      "pos": 12,
+      "score": 7912.327144236937,
+      "taskStats": {
+        "Casino Attack": {
+          "points": 0.0
+        },
+        "Casino Defense": {
+          "points": -56.0
+        },
+        "Casino SLA": {
+          "points": 1185.1238331921272
+        },
+        "CyberAlchemist Attack": {
+          "points": 0.0
+        },
+        "CyberAlchemist Defense": {
+          "points": -23.967978266446703
+        },
+        "CyberAlchemist SLA": {
+          "points": 186.14510468986288
+        },
+        "Explotify Attack": {
+          "points": 0.0
+        },
+        "Explotify Defense": {
+          "points": 0.0
+        },
+        "Explotify SLA": {
+          "points": 1327.835080121021
+        },
+        "ScavengePad Attack": {
+          "points": 0.0
+        },
+        "ScavengePad Defense": {
+          "points": 0.0
+        },
+        "ScavengePad SLA": {
+          "points": 74.45804187594514
+        },
+        "Shittr Attack": {
+          "points": 0.0
+        },
+        "Shittr Defense": {
+          "points": -352.22752375489375
+        },
+        "Shittr SLA": {
+          "points": 1191.3286700151227
+        },
+        "Telescopy Attack": {
+          "points": 2.642857142857143
+        },
+        "Telescopy Defense": {
+          "points": -231.52354392124397
+        },
+        "Telescopy SLA": {
+          "points": 1005.1835653252604
+        },
+        "Total Attack": {
+          "points": 2.642857142857143
+        },
+        "Total Defense": {
+          "points": -1397.570947399061
+        },
+        "Total SLA": {
+          "points": 9307.255234493141
+        },
+        "Voting Attack": {
+          "points": 0.0
+        },
+        "Voting Defense": {
+          "points": -545.7928790489902
+        },
+        "Voting SLA": {
+          "points": 1427.1124692889473
+        },
+        "borderpatrol Attack": {
+          "points": 0.0
+        },
+        "borderpatrol Defense": {
+          "points": -48.06541362847575
+        },
+        "borderpatrol SLA": {
+          "points": 1185.1238331921268
+        },
+        "deaddrop Attack": {
+          "points": 0.0
+        },
+        "deaddrop Defense": {
+          "points": -73.99360877901049
+        },
+        "deaddrop SLA": {
+          "points": 1160.3044859001457
+        },
+        "piano Attack": {
+          "points": 0.0
+        },
+        "piano Defense": {
+          "points": -66.0
+        },
+        "piano SLA": {
+          "points": 564.6401508925837
+        }
+      },
+      "team": "[DnO]"
+    },
+    {
+      "pos": 13,
+      "score": 6896.59615538135,
+      "taskStats": {
+        "Casino Attack": {
+          "points": 0.0
+        },
+        "Casino Defense": {
+          "points": -48.0
+        },
+        "Casino SLA": {
+          "points": 1203.7383436611137
+        },
+        "CyberAlchemist Attack": {
+          "points": 0.0
+        },
+        "CyberAlchemist Defense": {
+          "points": -72.3878029211663
+        },
+        "CyberAlchemist SLA": {
+          "points": 366.08537255673053
+        },
+        "Explotify Attack": {
+          "points": 0.0
+        },
+        "Explotify Defense": {
+          "points": -3.0
+        },
+        "Explotify SLA": {
+          "points": 93.07255234493142
+        },
+        "ScavengePad Attack": {
+          "points": 0.0
+        },
+        "ScavengePad Defense": {
+          "points": -1.0
+        },
+        "ScavengePad SLA": {
+          "points": 595.664335007561
+        },
+        "Shittr Attack": {
+          "points": 0.0
+        },
+        "Shittr Defense": {
+          "points": -75.0
+        },
+        "Shittr SLA": {
+          "points": 781.8094396974243
+        },
+        "Telescopy Attack": {
+          "points": 0.0
+        },
+        "Telescopy Defense": {
+          "points": -370.5547531009942
+        },
+        "Telescopy SLA": {
+          "points": 440.54341443267526
+        },
+        "Total Attack": {
+          "points": 292.08805916305926
+        },
+        "Total Defense": {
+          "points": -872.320275491204
+        },
+        "Total SLA": {
+          "points": 7476.8283717094955
+        },
+        "Voting Attack": {
+          "points": 292.08805916305926
+        },
+        "Voting Defense": {
+          "points": -211.76279270421577
+        },
+        "Voting SLA": {
+          "points": 1017.5932389712513
+        },
+        "borderpatrol Attack": {
+          "points": 0.0
+        },
+        "borderpatrol Defense": {
+          "points": -45.72909921223544
+        },
+        "borderpatrol SLA": {
+          "points": 1017.5932389712507
+        },
+        "deaddrop Attack": {
+          "points": 0.0
+        },
+        "deaddrop Defense": {
+          "points": -44.88582755259234
+        },
+        "deaddrop SLA": {
+          "points": 930.7255234493143
+        },
+        "piano Attack": {
+          "points": 0.0
+        },
+        "piano Defense": {
+          "points": 0.0
+        },
+        "piano SLA": {
+          "points": 1030.002912617242
+        }
+      },
+      "team": "Unislnt"
+    },
+    {
+      "pos": 14,
+      "score": 6567.709577224412,
+      "taskStats": {
+        "Casino Attack": {
+          "points": 0.0
+        },
+        "Casino Defense": {
+          "points": -38.0
+        },
+        "Casino SLA": {
+          "points": 682.5320505294969
+        },
+        "CyberAlchemist Attack": {
+          "points": 0.0
+        },
+        "CyberAlchemist Defense": {
+          "points": -30.953133731549798
+        },
+        "CyberAlchemist SLA": {
+          "points": 74.45804187594516
+        },
+        "Explotify Attack": {
+          "points": 0.0
+        },
+        "Explotify Defense": {
+          "points": -7.0
+        },
+        "Explotify SLA": {
+          "points": 1154.09964907715
+        },
+        "ScavengePad Attack": {
+          "points": 0.0
+        },
+        "ScavengePad Defense": {
+          "points": 0.0
+        },
+        "ScavengePad SLA": {
+          "points": 0.0
+        },
+        "Shittr Attack": {
+          "points": 0.0
+        },
+        "Shittr Defense": {
+          "points": -307.2005903738091
+        },
+        "Shittr SLA": {
+          "points": 980.3642180332783
+        },
+        "Telescopy Attack": {
+          "points": 58.3838855588856
+        },
+        "Telescopy Defense": {
+          "points": -401.3670819795258
+        },
+        "Telescopy SLA": {
+          "points": 856.2674815733698
+        },
+        "Total Attack": {
+          "points": 58.3838855588856
+        },
+        "Total Defense": {
+          "points": -1228.1058266097773
+        },
+        "Total SLA": {
+          "points": 7737.4315182753035
+        },
+        "Voting Attack": {
+          "points": 0.0
+        },
+        "Voting Defense": {
+          "points": -325.45853898316597
+        },
+        "Voting SLA": {
+          "points": 1079.6416072012053
+        },
+        "borderpatrol Attack": {
+          "points": 0.0
+        },
+        "borderpatrol Defense": {
+          "points": -37.01335675796899
+        },
+        "borderpatrol SLA": {
+          "points": 856.2674815733693
+        },
+        "deaddrop Attack": {
+          "points": 0.0
+        },
+        "deaddrop Defense": {
+          "points": -81.11312478375751
+        },
+        "deaddrop SLA": {
+          "points": 974.1593812102832
+        },
+        "piano Attack": {
+          "points": 0.0
+        },
+        "piano Defense": {
+          "points": 0.0
+        },
+        "piano SLA": {
+          "points": 1079.6416072012055
+        }
+      },
+      "team": "***STT***"
+    },
+    {
+      "pos": 15,
+      "score": 6357.133007040016,
+      "taskStats": {
+        "Casino Attack": {
+          "points": 0.0
+        },
+        "Casino Defense": {
+          "points": -3.0
+        },
+        "Casino SLA": {
+          "points": 632.8933559455336
+        },
+        "CyberAlchemist Attack": {
+          "points": 0.0
+        },
+        "CyberAlchemist Defense": {
+          "points": -28.07591244814767
+        },
+        "CyberAlchemist SLA": {
+          "points": 204.75961515884913
+        },
+        "Explotify Attack": {
+          "points": 0.0
+        },
+        "Explotify Defense": {
+          "points": 0.0
+        },
+        "Explotify SLA": {
+          "points": 1048.617423086228
+        },
+        "ScavengePad Attack": {
+          "points": 0.0
+        },
+        "ScavengePad Defense": {
+          "points": 0.0
+        },
+        "ScavengePad SLA": {
+          "points": 409.5192303176981
+        },
+        "Shittr Attack": {
+          "points": 0.0
+        },
+        "Shittr Defense": {
+          "points": -250.2646415077938
+        },
+        "Shittr SLA": {
+          "points": 781.8094396974241
+        },
+        "Telescopy Attack": {
+          "points": 0.0
+        },
+        "Telescopy Defense": {
+          "points": -392.14658634334256
+        },
+        "Telescopy SLA": {
+          "points": 546.0256404235973
+        },
+        "Total Attack": {
+          "points": 0.0
+        },
+        "Total Defense": {
+          "points": -952.1647704486006
+        },
+        "Total SLA": {
+          "points": 7309.297777488617
+        },
+        "Voting Attack": {
+          "points": 0.0
+        },
+        "Voting Defense": {
+          "points": -78.08567873557399
+        },
+        "Voting SLA": {
+          "points": 1036.2077494402376
+        },
+        "borderpatrol Attack": {
+          "points": 0.0
+        },
+        "borderpatrol Defense": {
+          "points": -42.70182796746091
+        },
+        "borderpatrol SLA": {
+          "points": 1017.5932389712508
+        },
+        "deaddrop Attack": {
+          "points": 0.0
+        },
+        "deaddrop Defense": {
+          "points": -76.83896128414216
+        },
+        "deaddrop SLA": {
+          "points": 862.4723183963649
+        },
+        "piano Attack": {
+          "points": 0.0
+        },
+        "piano Defense": {
+          "points": -81.05116216213949
+        },
+        "piano SLA": {
+          "points": 769.3997660514335
+        }
+      },
+      "team": "LosLurchos"
+    },
+    {
+      "pos": 16,
+      "score": 5826.394999046412,
+      "taskStats": {
+        "Casino Attack": {
+          "points": 0.0
+        },
+        "Casino Defense": {
+          "points": -56.0
+        },
+        "Casino SLA": {
+          "points": 1036.2077494402376
+        },
+        "CyberAlchemist Attack": {
+          "points": 0.0
+        },
+        "CyberAlchemist Defense": {
+          "points": -1.0
+        },
+        "CyberAlchemist SLA": {
+          "points": 74.45804187594514
+        },
+        "Explotify Attack": {
+          "points": 0.0
+        },
+        "Explotify Defense": {
+          "points": 0.0
+        },
+        "Explotify SLA": {
+          "points": 905.9061761573332
+        },
+        "ScavengePad Attack": {
+          "points": 0.0
+        },
+        "ScavengePad Defense": {
+          "points": 0.0
+        },
+        "ScavengePad SLA": {
+          "points": 62.048368229954285
+        },
+        "Shittr Attack": {
+          "points": 0.0
+        },
+        "Shittr Defense": {
+          "points": -308.6671150779382
+        },
+        "Shittr SLA": {
+          "points": 825.2432974583924
+        },
+        "Telescopy Attack": {
+          "points": 152.84496059496058
+        },
+        "Telescopy Defense": {
+          "points": -394.0359966218561
+        },
+        "Telescopy SLA": {
+          "points": 756.9900924054425
+        },
+        "Total Attack": {
+          "points": 152.84496059496058
+        },
+        "Total Defense": {
+          "points": -1170.3849773125105
+        },
+        "Total SLA": {
+          "points": 6843.935015763962
+        },
+        "Voting Attack": {
+          "points": 0.0
+        },
+        "Voting Defense": {
+          "points": -226.35134934890488
+        },
+        "Voting SLA": {
+          "points": 1017.5932389712513
+        },
+        "borderpatrol Attack": {
+          "points": 0.0
+        },
+        "borderpatrol Defense": {
+          "points": -40.767799324773236
+        },
+        "borderpatrol SLA": {
+          "points": 1023.7980757942464
+        },
+        "deaddrop Attack": {
+          "points": 0.0
+        },
+        "deaddrop Defense": {
+          "points": -99.55603856005365
+        },
+        "deaddrop SLA": {
+          "points": 756.9900924054425
+        },
+        "piano Attack": {
+          "points": 0.0
+        },
+        "piano Defense": {
+          "points": -44.006678378984496
+        },
+        "piano SLA": {
+          "points": 384.6998830257165
+        }
+      },
+      "team": "TeamPowerPrinter"
+    },
+    {
+      "pos": 17,
+      "score": 5381.765070057554,
+      "taskStats": {
+        "Casino Attack": {
+          "points": 0.0
+        },
+        "Casino Defense": {
+          "points": -7.0
+        },
+        "Casino SLA": {
+          "points": 682.5320505294973
+        },
+        "CyberAlchemist Attack": {
+          "points": 4.0
+        },
+        "CyberAlchemist Defense": {
+          "points": -8.68179283050743
+        },
+        "CyberAlchemist SLA": {
+          "points": 186.14510468986288
+        },
+        "Explotify Attack": {
+          "points": 0.0
+        },
+        "Explotify Defense": {
+          "points": 0.0
+        },
+        "Explotify SLA": {
+          "points": 694.9417241754882
+        },
+        "ScavengePad Attack": {
+          "points": 0.0
+        },
+        "ScavengePad Defense": {
+          "points": 0.0
+        },
+        "ScavengePad SLA": {
+          "points": 701.1465609984837
+        },
+        "Shittr Attack": {
+          "points": 0.0
+        },
+        "Shittr Defense": {
+          "points": -65.13138498578809
+        },
+        "Shittr SLA": {
+          "points": 645.3030295915246
+        },
+        "Telescopy Attack": {
+          "points": 126.12178932178938
+        },
+        "Telescopy Defense": {
+          "points": -123.10974523281091
+        },
+        "Telescopy SLA": {
+          "points": 378.49504620272097
+        },
+        "Total Attack": {
+          "points": 130.12178932178938
+        },
+        "Total Defense": {
+          "points": -531.2646382959746
+        },
+        "Total SLA": {
+          "points": 5782.90791903174
+        },
+        "Voting Attack": {
+          "points": 0.0
+        },
+        "Voting Defense": {
+          "points": -253.02406580621215
+        },
+        "Voting SLA": {
+          "points": 831.448134281388
+        },
+        "borderpatrol Attack": {
+          "points": 0.0
+        },
+        "borderpatrol Defense": {
+          "points": 0.0
+        },
+        "borderpatrol SLA": {
+          "points": 670.1223768835064
+        },
+        "deaddrop Attack": {
+          "points": 0.0
+        },
+        "deaddrop Defense": {
+          "points": -50.635856610148565
+        },
+        "deaddrop SLA": {
+          "points": 515.0014563086203
+        },
+        "piano Attack": {
+          "points": 0.0
+        },
+        "piano Defense": {
+          "points": -23.68179283050743
+        },
+        "piano SLA": {
+          "points": 477.7724353706477
+        }
+      },
+      "team": "[SPbCTF] fargate"
+    },
+    {
+      "pos": 18,
+      "score": 5234.490779262411,
+      "taskStats": {
+        "Casino Attack": {
+          "points": 0.0
+        },
+        "Casino Defense": {
+          "points": 0.0
+        },
+        "Casino SLA": {
+          "points": 210.96445198184463
+        },
+        "CyberAlchemist Attack": {
+          "points": 58.00000000000001
+        },
+        "CyberAlchemist Defense": {
+          "points": -27.604392605431844
+        },
+        "CyberAlchemist SLA": {
+          "points": 304.03700432677607
+        },
+        "Explotify Attack": {
+          "points": 0.0
+        },
+        "Explotify Defense": {
+          "points": 0.0
+        },
+        "Explotify SLA": {
+          "points": 967.9545443872879
+        },
+        "ScavengePad Attack": {
+          "points": 0.0
+        },
+        "ScavengePad Defense": {
+          "points": 0.0
+        },
+        "ScavengePad SLA": {
+          "points": 0.0
+        },
+        "Shittr Attack": {
+          "points": 0.0
+        },
+        "Shittr Defense": {
+          "points": -267.2837982004521
+        },
+        "Shittr SLA": {
+          "points": 452.95308807866604
+        },
+        "Telescopy Attack": {
+          "points": 475.34136419136394
+        },
+        "Telescopy Defense": {
+          "points": 0.0
+        },
+        "Telescopy SLA": {
+          "points": 55.84353140695886
+        },
+        "Total Attack": {
+          "points": 538.0565157065155
+        },
+        "Total Defense": {
+          "points": -763.8221406800826
+        },
+        "Total SLA": {
+          "points": 5460.256404235978
+        },
+        "Voting Attack": {
+          "points": 4.715151515151515
+        },
+        "Voting Defense": {
+          "points": -374.1160215691243
+        },
+        "Voting SLA": {
+          "points": 750.7852555824472
+        },
+        "borderpatrol Attack": {
+          "points": 0.0
+        },
+        "borderpatrol Defense": {
+          "points": -25.817928305074293
+        },
+        "borderpatrol SLA": {
+          "points": 694.9417241754882
+        },
+        "deaddrop Attack": {
+          "points": 0.0
+        },
+        "deaddrop Defense": {
+          "points": -38.0
+        },
+        "deaddrop SLA": {
+          "points": 868.6771552193605
+        },
+        "piano Attack": {
+          "points": 0.0
+        },
+        "piano Defense": {
+          "points": -31.0
+        },
+        "piano SLA": {
+          "points": 1154.09964907715
+        }
+      },
+      "team": "bi0s"
+    },
+    {
+      "pos": 19,
+      "score": 5046.165065264517,
+      "taskStats": {
+        "Casino Attack": {
+          "points": 0.0
+        },
+        "Casino Defense": {
+          "points": -41.0
+        },
+        "Casino SLA": {
+          "points": 676.3272137065017
+        },
+        "CyberAlchemist Attack": {
+          "points": 0.0
+        },
+        "CyberAlchemist Defense": {
+          "points": -89.18781079852256
+        },
+        "CyberAlchemist SLA": {
+          "points": 459.15792490166143
+        },
+        "Explotify Attack": {
+          "points": 0.0
+        },
+        "Explotify Defense": {
+          "points": -7.0
+        },
+        "Explotify SLA": {
+          "points": 515.0014563086204
+        },
+        "ScavengePad Attack": {
+          "points": 0.0
+        },
+        "ScavengePad Defense": {
+          "points": -3.0
+        },
+        "ScavengePad SLA": {
+          "points": 595.6643350075611
+        },
+        "Shittr Attack": {
+          "points": 0.0
+        },
+        "Shittr Defense": {
+          "points": -178.9446437554932
+        },
+        "Shittr SLA": {
+          "points": 490.18210901663855
+        },
+        "Telescopy Attack": {
+          "points": 0.0
+        },
+        "Telescopy Defense": {
+          "points": -192.5903093695378
+        },
+        "Telescopy SLA": {
+          "points": 353.6756989107394
+        },
+        "Total Attack": {
+          "points": 0.0
+        },
+        "Total Defense": {
+          "points": -1059.394368562986
+        },
+        "Total SLA": {
+          "points": 6105.559433827502
+        },
+        "Voting Attack": {
+          "points": 0.0
+        },
+        "Voting Defense": {
+          "points": -348.88006735257704
+        },
+        "Voting SLA": {
+          "points": 943.1351970953059
+        },
+        "borderpatrol Attack": {
+          "points": 0.0
+        },
+        "borderpatrol Defense": {
+          "points": -46.44617648814702
+        },
+        "borderpatrol SLA": {
+          "points": 862.472318396365
+        },
+        "deaddrop Attack": {
+          "points": 0.0
+        },
+        "deaddrop Defense": {
+          "points": -113.41608264479945
+        },
+        "deaddrop SLA": {
+          "points": 756.9900924054425
+        },
+        "piano Attack": {
+          "points": 0.0
+        },
+        "piano Defense": {
+          "points": -38.9292781539089
+        },
+        "piano SLA": {
+          "points": 452.95308807866604
+        }
+      },
+      "team": "elbrown"
+    },
+    {
+      "pos": 20,
+      "score": 4502.930258433521,
+      "taskStats": {
+        "Casino Attack": {
+          "points": 0.0
+        },
+        "Casino Defense": {
+          "points": -1.0
+        },
+        "Casino SLA": {
+          "points": 688.7368873524927
+        },
+        "CyberAlchemist Attack": {
+          "points": 0.0
+        },
+        "CyberAlchemist Defense": {
+          "points": -22.688471209491926
+        },
+        "CyberAlchemist SLA": {
+          "points": 353.6756989107394
+        },
+        "Explotify Attack": {
+          "points": 0.0
+        },
+        "Explotify Defense": {
+          "points": 0.0
+        },
+        "Explotify SLA": {
+          "points": 632.8933559455336
+        },
+        "ScavengePad Attack": {
+          "points": 0.0
+        },
+        "ScavengePad Defense": {
+          "points": 0.0
+        },
+        "ScavengePad SLA": {
+          "points": 546.0256404235973
+        },
+        "Shittr Attack": {
+          "points": 0.0
+        },
+        "Shittr Defense": {
+          "points": -68.73276669764005
+        },
+        "Shittr SLA": {
+          "points": 508.7966194856249
+        },
+        "Telescopy Attack": {
+          "points": 0.0
+        },
+        "Telescopy Defense": {
+          "points": -160.9947899382936
+        },
+        "Telescopy SLA": {
+          "points": 235.78379927382633
+        },
+        "Total Attack": {
+          "points": 0.0
+        },
+        "Total Defense": {
+          "points": -479.5537104318063
+        },
+        "Total SLA": {
+          "points": 4982.483968865327
+        },
+        "Voting Attack": {
+          "points": 0.0
+        },
+        "Voting Defense": {
+          "points": -202.13768258638075
+        },
+        "Voting SLA": {
+          "points": 601.8691718305564
+        },
+        "borderpatrol Attack": {
+          "points": 0.0
+        },
+        "borderpatrol Defense": {
+          "points": 0.0
+        },
+        "borderpatrol SLA": {
+          "points": 546.0256404235976
+        },
+        "deaddrop Attack": {
+          "points": 0.0
+        },
+        "deaddrop Defense": {
+          "points": -17.0
+        },
+        "deaddrop SLA": {
+          "points": 421.928903963689
+        },
+        "piano Attack": {
+          "points": 0.0
+        },
+        "piano Defense": {
+          "points": -7.0
+        },
+        "piano SLA": {
+          "points": 446.7482512556706
+        }
+      },
+      "team": "SIGSEGV"
+    },
+    {
+      "pos": 21,
+      "score": 4425.238870981252,
+      "taskStats": {
+        "Casino Attack": {
+          "points": 0.0
+        },
+        "Casino Defense": {
+          "points": 0.0
+        },
+        "Casino SLA": {
+          "points": 682.5320505294972
+        },
+        "CyberAlchemist Attack": {
+          "points": 0.0
+        },
+        "CyberAlchemist Defense": {
+          "points": -3.363585661014858
+        },
+        "CyberAlchemist SLA": {
+          "points": 0.0
+        },
+        "Explotify Attack": {
+          "points": 0.0
+        },
+        "Explotify Defense": {
+          "points": 0.0
+        },
+        "Explotify SLA": {
+          "points": 483.9772721936432
+        },
+        "ScavengePad Attack": {
+          "points": 0.0
+        },
+        "ScavengePad Defense": {
+          "points": 0.0
+        },
+        "ScavengePad SLA": {
+          "points": 496.386945839634
+        },
+        "Shittr Attack": {
+          "points": 0.0
+        },
+        "Shittr Defense": {
+          "points": -239.99137130442537
+        },
+        "Shittr SLA": {
+          "points": 713.5562346444744
+        },
+        "Telescopy Attack": {
+          "points": 1.125
+        },
+        "Telescopy Defense": {
+          "points": -233.03386843502722
+        },
+        "Telescopy SLA": {
+          "points": 496.386945839634
+        },
+        "Total Attack": {
+          "points": 1.125
+        },
+        "Total Defense": {
+          "points": -887.2264495028359
+        },
+        "Total SLA": {
+          "points": 5311.340320484088
+        },
+        "Voting Attack": {
+          "points": 0.0
+        },
+        "Voting Defense": {
+          "points": -209.9117262758691
+        },
+        "Voting SLA": {
+          "points": 788.0142765204198
+        },
+        "borderpatrol Attack": {
+          "points": 0.0
+        },
+        "borderpatrol Defense": {
+          "points": -29.817928305074293
+        },
+        "borderpatrol SLA": {
+          "points": 564.640150892584
+        },
+        "deaddrop Attack": {
+          "points": 0.0
+        },
+        "deaddrop Defense": {
+          "points": -115.4261766909176
+        },
+        "deaddrop SLA": {
+          "points": 850.0626447503743
+        },
+        "piano Attack": {
+          "points": 0.0
+        },
+        "piano Defense": {
+          "points": -55.68179283050743
+        },
+        "piano SLA": {
+          "points": 235.78379927382636
+        }
+      },
+      "team": "onotch"
+    },
+    {
+      "pos": 22,
+      "score": 3680.4567813314206,
+      "taskStats": {
+        "Casino Attack": {
+          "points": 0.0
+        },
+        "Casino Defense": {
+          "points": 0.0
+        },
+        "Casino SLA": {
+          "points": 483.97727219364316
+        },
+        "CyberAlchemist Attack": {
+          "points": 0.0
+        },
+        "CyberAlchemist Defense": {
+          "points": -21.153312673223255
+        },
+        "CyberAlchemist SLA": {
+          "points": 204.7596151588492
+        },
+        "Explotify Attack": {
+          "points": 0.0
+        },
+        "Explotify Defense": {
+          "points": 0.0
+        },
+        "Explotify SLA": {
+          "points": 353.67569891073936
+        },
+        "ScavengePad Attack": {
+          "points": 0.0
+        },
+        "ScavengePad Defense": {
+          "points": 0.0
+        },
+        "ScavengePad SLA": {
+          "points": 397.10955667170737
+        },
+        "Shittr Attack": {
+          "points": 0.0
+        },
+        "Shittr Defense": {
+          "points": -134.08877927130303
+        },
+        "Shittr SLA": {
+          "points": 440.5434144326752
+        },
+        "Telescopy Attack": {
+          "points": 1.2
+        },
+        "Telescopy Defense": {
+          "points": -38.35253276099651
+        },
+        "Telescopy SLA": {
+          "points": 68.25320505294971
+        },
+        "Total Attack": {
+          "points": 9.49090909090909
+        },
+        "Total Defense": {
+          "points": -424.22643093647025
+        },
+        "Total SLA": {
+          "points": 4095.1923031769816
+        },
+        "Voting Attack": {
+          "points": 8.290909090909091
+        },
+        "Voting Defense": {
+          "points": -155.85925641739544
+        },
+        "Voting SLA": {
+          "points": 459.15792490166143
+        },
+        "borderpatrol Attack": {
+          "points": 0.0
+        },
+        "borderpatrol Defense": {
+          "points": -7.0
+        },
+        "borderpatrol SLA": {
+          "points": 676.3272137065014
+        },
+        "deaddrop Attack": {
+          "points": 0.0
+        },
+        "deaddrop Defense": {
+          "points": -34.408964152537145
+        },
+        "deaddrop SLA": {
+          "points": 570.8449877155792
+        },
+        "piano Attack": {
+          "points": 0.0
+        },
+        "piano Defense": {
+          "points": -33.36358566101486
+        },
+        "piano SLA": {
+          "points": 440.5434144326754
+        }
+      },
+      "team": "Omaviat"
+    },
+    {
+      "pos": 23,
+      "score": 2898.7251224520974,
+      "taskStats": {
+        "Casino Attack": {
+          "points": 0.0
+        },
+        "Casino Defense": {
+          "points": 0.0
+        },
+        "Casino SLA": {
+          "points": 378.495046202721
+        },
+        "CyberAlchemist Attack": {
+          "points": 0.0
+        },
+        "CyberAlchemist Defense": {
+          "points": -21.643092717969637
+        },
+        "CyberAlchemist SLA": {
+          "points": 235.78379927382636
+        },
+        "Explotify Attack": {
+          "points": 0.0
+        },
+        "Explotify Defense": {
+          "points": 0.0
+        },
+        "Explotify SLA": {
+          "points": 291.6273306807852
+        },
+        "ScavengePad Attack": {
+          "points": 0.0
+        },
+        "ScavengePad Defense": {
+          "points": 0.0
+        },
+        "ScavengePad SLA": {
+          "points": 409.5192303176981
+        },
+        "Shittr Attack": {
+          "points": 211.0
+        },
+        "Shittr Defense": {
+          "points": 0.0
+        },
+        "Shittr SLA": {
+          "points": 421.9289039636889
+        },
+        "Telescopy Attack": {
+          "points": 0.0
+        },
+        "Telescopy Defense": {
+          "points": -23.125454280673697
+        },
+        "Telescopy SLA": {
+          "points": 80.66287869894057
+        },
+        "Total Attack": {
+          "points": 211.0
+        },
+        "Total Defense": {
+          "points": -129.27079518782654
+        },
+        "Total SLA": {
+          "points": 2816.995917639924
+        },
+        "Voting Attack": {
+          "points": 0.0
+        },
+        "Voting Defense": {
+          "points": -84.5022481891832
+        },
+        "Voting SLA": {
+          "points": 446.7482512556706
+        },
+        "borderpatrol Attack": {
+          "points": 0.0
+        },
+        "borderpatrol Defense": {
+          "points": 0.0
+        },
+        "borderpatrol SLA": {
+          "points": 186.1451046898628
+        },
+        "deaddrop Attack": {
+          "points": 0.0
+        },
+        "deaddrop Defense": {
+          "points": 0.0
+        },
+        "deaddrop SLA": {
+          "points": 155.12092057488576
+        },
+        "piano Attack": {
+          "points": 0.0
+        },
+        "piano Defense": {
+          "points": 0.0
+        },
+        "piano SLA": {
+          "points": 210.96445198184463
+        }
+      },
+      "team": "MLPWN"
+    },
+    {
+      "pos": 24,
+      "score": 2622.771484552621,
+      "taskStats": {
+        "Casino Attack": {
+          "points": 0.0
+        },
+        "Casino Defense": {
+          "points": 0.0
+        },
+        "Casino SLA": {
+          "points": 359.8805357337348
+        },
+        "CyberAlchemist Attack": {
+          "points": 0.0
+        },
+        "CyberAlchemist Defense": {
+          "points": -4.681792830507429
+        },
+        "CyberAlchemist SLA": {
+          "points": 0.0
+        },
+        "Explotify Attack": {
+          "points": 0.0
+        },
+        "Explotify Defense": {
+          "points": -25.0
+        },
+        "Explotify SLA": {
+          "points": 359.8805357337348
+        },
+        "ScavengePad Attack": {
+          "points": 0.0
+        },
+        "ScavengePad Defense": {
+          "points": -7.0
+        },
+        "ScavengePad SLA": {
+          "points": 434.3385776096798
+        },
+        "Shittr Attack": {
+          "points": 0.0
+        },
+        "Shittr Defense": {
+          "points": -70.37136074510187
+        },
+        "Shittr SLA": {
+          "points": 124.09673645990858
+        },
+        "Telescopy Attack": {
+          "points": 40.50643245643248
+        },
+        "Telescopy Defense": {
+          "points": -34.23879701895525
+        },
+        "Telescopy SLA": {
+          "points": 18.614510468986285
+        },
+        "Total Attack": {
+          "points": 79.09416694416697
+        },
+        "Total Defense": {
+          "points": -378.80082602239173
+        },
+        "Total SLA": {
+          "points": 2922.478143630846
+        },
+        "Voting Attack": {
+          "points": 33.754401154401165
+        },
+        "Voting Defense": {
+          "points": -44.39627303318225
+        },
+        "Voting SLA": {
+          "points": 384.6998830257165
+        },
+        "borderpatrol Attack": {
+          "points": 0.0
+        },
+        "borderpatrol Defense": {
+          "points": -45.57904925086303
+        },
+        "borderpatrol SLA": {
+          "points": 471.5675985476523
+        },
+        "deaddrop Attack": {
+          "points": 0.0
+        },
+        "deaddrop Defense": {
+          "points": -93.12514672008137
+        },
+        "deaddrop SLA": {
+          "points": 409.51923031769815
+        },
+        "piano Attack": {
+          "points": 4.833333333333334
+        },
+        "piano Defense": {
+          "points": -54.408406423700555
+        },
+        "piano SLA": {
+          "points": 359.88053573373475
+        }
+      },
+      "team": "UlisseLabBO"
+    },
+    {
+      "pos": 25,
+      "score": 1770.634301767177,
+      "taskStats": {
+        "Casino Attack": {
+          "points": 0.0
+        },
+        "Casino Defense": {
+          "points": 0.0
+        },
+        "Casino SLA": {
+          "points": 0.0
+        },
+        "CyberAlchemist Attack": {
+          "points": 0.0
+        },
+        "CyberAlchemist Defense": {
+          "points": -26.523576713222607
+        },
+        "CyberAlchemist SLA": {
+          "points": 43.433857760967996
+        },
+        "Explotify Attack": {
+          "points": 0.0
+        },
+        "Explotify Defense": {
+          "points": 0.0
+        },
+        "Explotify SLA": {
+          "points": 266.8079833888034
+        },
+        "ScavengePad Attack": {
+          "points": 0.0
+        },
+        "ScavengePad Defense": {
+          "points": 0.0
+        },
+        "ScavengePad SLA": {
+          "points": 86.86771552193599
+        },
+        "Shittr Attack": {
+          "points": 0.0
+        },
+        "Shittr Defense": {
+          "points": -107.44460964479444
+        },
+        "Shittr SLA": {
+          "points": 105.4822259909223
+        },
+        "Telescopy Attack": {
+          "points": 0.0
+        },
+        "Telescopy Defense": {
+          "points": -173.7880682127774
+        },
+        "Telescopy SLA": {
+          "points": 266.8079833888035
+        },
+        "Total Attack": {
+          "points": 529.5237012987013
+        },
+        "Total Defense": {
+          "points": -384.55664715632673
+        },
+        "Total SLA": {
+          "points": 1625.6672476248025
+        },
+        "Voting Attack": {
+          "points": 529.5237012987013
+        },
+        "Voting Defense": {
+          "points": -31.755014094010004
+        },
+        "Voting SLA": {
+          "points": 217.16928880484002
+        },
+        "borderpatrol Attack": {
+          "points": 0.0
+        },
+        "borderpatrol Defense": {
+          "points": -9.045378491522287
+        },
+        "borderpatrol SLA": {
+          "points": 279.2176570347943
+        },
+        "deaddrop Attack": {
+          "points": 0.0
+        },
+        "deaddrop Defense": {
+          "points": -17.0
+        },
+        "deaddrop SLA": {
+          "points": 273.01282021179884
+        },
+        "piano Attack": {
+          "points": 0.0
+        },
+        "piano Defense": {
+          "points": -19.0
+        },
+        "piano SLA": {
+          "points": 86.86771552193599
+        }
+      },
+      "team": "squareroots"
+    },
+    {
+      "pos": 26,
+      "score": 1691.4072357246719,
+      "taskStats": {
+        "Casino Attack": {
+          "points": 0.0
+        },
+        "Casino Defense": {
+          "points": -11.0
+        },
+        "Casino SLA": {
+          "points": 316.4466779727671
+        },
+        "CyberAlchemist Attack": {
+          "points": 0.0
+        },
+        "CyberAlchemist Defense": {
+          "points": -11.240806944416985
+        },
+        "CyberAlchemist SLA": {
+          "points": 12.409673645990857
+        },
+        "Explotify Attack": {
+          "points": 0.0
+        },
+        "Explotify Defense": {
+          "points": 0.0
+        },
+        "Explotify SLA": {
+          "points": 403.3143934947029
+        },
+        "ScavengePad Attack": {
+          "points": 0.0
+        },
+        "ScavengePad Defense": {
+          "points": -1.0
+        },
+        "ScavengePad SLA": {
+          "points": 37.22902093797257
+        },
+        "Shittr Attack": {
+          "points": 0.0
+        },
+        "Shittr Defense": {
+          "points": -52.37856103471392
+        },
+        "Shittr SLA": {
+          "points": 62.048368229954285
+        },
+        "Telescopy Attack": {
+          "points": 0.0
+        },
+        "Telescopy Defense": {
+          "points": -144.5245135342585
+        },
+        "Telescopy SLA": {
+          "points": 117.89189963691317
+        },
+        "Total Attack": {
+          "points": 0.0
+        },
+        "Total Defense": {
+          "points": -486.4904891467236
+        },
+        "Total SLA": {
+          "points": 2177.8977248713954
+        },
+        "Voting Attack": {
+          "points": 0.0
+        },
+        "Voting Defense": {
+          "points": -208.37195098790303
+        },
+        "Voting SLA": {
+          "points": 341.2660252647486
+        },
+        "borderpatrol Attack": {
+          "points": 0.0
+        },
+        "borderpatrol Defense": {
+          "points": -13.688471209491924
+        },
+        "borderpatrol SLA": {
+          "points": 409.51923031769826
+        },
+        "deaddrop Attack": {
+          "points": 0.0
+        },
+        "deaddrop Defense": {
+          "points": -30.604392605431844
+        },
+        "deaddrop SLA": {
+          "points": 335.0611884417532
+        },
+        "piano Attack": {
+          "points": 0.0
+        },
+        "piano Defense": {
+          "points": -13.68179283050743
+        },
+        "piano SLA": {
+          "points": 142.71124692889487
+        }
+      },
+      "team": "AbbHackIO"
+    },
+    {
+      "pos": 27,
+      "score": 741.8313435674229,
+      "taskStats": {
+        "Casino Attack": {
+          "points": 0.0
+        },
+        "Casino Defense": {
+          "points": -3.0
+        },
+        "Casino SLA": {
+          "points": 55.84353140695885
+        },
+        "CyberAlchemist Attack": {
+          "points": 0.0
+        },
+        "CyberAlchemist Defense": {
+          "points": -7.681792830507429
+        },
+        "CyberAlchemist SLA": {
+          "points": 161.32575739788118
+        },
+        "Explotify Attack": {
+          "points": 0.0
+        },
+        "Explotify Defense": {
+          "points": 0.0
+        },
+        "Explotify SLA": {
+          "points": 49.63869458396343
+        },
+        "ScavengePad Attack": {
+          "points": 0.0
+        },
+        "ScavengePad Defense": {
+          "points": 0.0
+        },
+        "ScavengePad SLA": {
+          "points": 62.048368229954285
+        },
+        "Shittr Attack": {
+          "points": 0.0
+        },
+        "Shittr Defense": {
+          "points": 0.0
+        },
+        "Shittr SLA": {
+          "points": 111.68706281391772
+        },
+        "Telescopy Attack": {
+          "points": 0.0
+        },
+        "Telescopy Defense": {
+          "points": -2.0
+        },
+        "Telescopy SLA": {
+          "points": 31.024184114977142
+        },
+        "Total Attack": {
+          "points": 0.0
+        },
+        "Total Defense": {
+          "points": -21.36358566101486
+        },
+        "Total SLA": {
+          "points": 763.1949292284378
+        },
+        "Voting Attack": {
+          "points": 0.0
+        },
+        "Voting Defense": {
+          "points": -8.68179283050743
+        },
+        "Voting SLA": {
+          "points": 148.9160837518903
+        },
+        "borderpatrol Attack": {
+          "points": 0.0
+        },
+        "borderpatrol Defense": {
+          "points": 0.0
+        },
+        "borderpatrol SLA": {
+          "points": 0.0
+        },
+        "deaddrop Attack": {
+          "points": 0.0
+        },
+        "deaddrop Defense": {
+          "points": 0.0
+        },
+        "deaddrop SLA": {
+          "points": 55.84353140695885
+        },
+        "piano Attack": {
+          "points": 0.0
+        },
+        "piano Defense": {
+          "points": 0.0
+        },
+        "piano SLA": {
+          "points": 86.86771552193599
+        }
+      },
+      "team": "gorogoroumaru"
+    },
+    {
+      "pos": 28,
+      "score": 707.0792786369624,
+      "taskStats": {
+        "Casino Attack": {
+          "points": 0.0
+        },
+        "Casino Defense": {
+          "points": -4.0
+        },
+        "Casino SLA": {
+          "points": 124.09673645990861
+        },
+        "CyberAlchemist Attack": {
+          "points": 0.0
+        },
+        "CyberAlchemist Defense": {
+          "points": -1.681792830507429
+        },
+        "CyberAlchemist SLA": {
+          "points": 0.0
+        },
+        "Explotify Attack": {
+          "points": 0.0
+        },
+        "Explotify Defense": {
+          "points": 0.0
+        },
+        "Explotify SLA": {
+          "points": 0.0
+        },
+        "ScavengePad Attack": {
+          "points": 0.0
+        },
+        "ScavengePad Defense": {
+          "points": 0.0
+        },
+        "ScavengePad SLA": {
+          "points": 105.48222599092229
+        },
+        "Shittr Attack": {
+          "points": 0.0
+        },
+        "Shittr Defense": {
+          "points": 0.0
+        },
+        "Shittr SLA": {
+          "points": 0.0
+        },
+        "Telescopy Attack": {
+          "points": 0.0
+        },
+        "Telescopy Defense": {
+          "points": 0.0
+        },
+        "Telescopy SLA": {
+          "points": 0.0
+        },
+        "Total Attack": {
+          "points": 0.0
+        },
+        "Total Defense": {
+          "points": -12.68179283050743
+        },
+        "Total SLA": {
+          "points": 719.7610714674698
+        },
+        "Voting Attack": {
+          "points": 0.0
+        },
+        "Voting Defense": {
+          "points": 0.0
+        },
+        "Voting SLA": {
+          "points": 0.0
+        },
+        "borderpatrol Attack": {
+          "points": 0.0
+        },
+        "borderpatrol Defense": {
+          "points": -6.0
+        },
+        "borderpatrol SLA": {
+          "points": 105.48222599092229
+        },
+        "deaddrop Attack": {
+          "points": 0.0
+        },
+        "deaddrop Defense": {
+          "points": -1.0
+        },
+        "deaddrop SLA": {
+          "points": 161.32575739788118
+        },
+        "piano Attack": {
+          "points": 0.0
+        },
+        "piano Defense": {
+          "points": 0.0
+        },
+        "piano SLA": {
+          "points": 223.3741256278355
+        }
+      },
+      "team": "pokedex"
+    },
+    {
+      "pos": 29,
+      "score": 513.7815848231744,
+      "taskStats": {
+        "Casino Attack": {
+          "points": 0.0
+        },
+        "Casino Defense": {
+          "points": 0.0
+        },
+        "Casino SLA": {
+          "points": 105.4822259909223
+        },
+        "CyberAlchemist Attack": {
+          "points": 0.0
+        },
+        "CyberAlchemist Defense": {
+          "points": -2.681792830507429
+        },
+        "CyberAlchemist SLA": {
+          "points": 24.819347291981714
+        },
+        "Explotify Attack": {
+          "points": 0.0
+        },
+        "Explotify Defense": {
+          "points": 0.0
+        },
+        "Explotify SLA": {
+          "points": 12.409673645990857
+        },
+        "ScavengePad Attack": {
+          "points": 0.0
+        },
+        "ScavengePad Defense": {
+          "points": 0.0
+        },
+        "ScavengePad SLA": {
+          "points": 0.0
+        },
+        "Shittr Attack": {
+          "points": 0.0
+        },
+        "Shittr Defense": {
+          "points": -25.638342229190872
+        },
+        "Shittr SLA": {
+          "points": 68.25320505294971
+        },
+        "Telescopy Attack": {
+          "points": 0.0
+        },
+        "Telescopy Defense": {
+          "points": -15.79926144636031
+        },
+        "Telescopy SLA": {
+          "points": 24.819347291981714
+        },
+        "Total Attack": {
+          "points": 0.0
+        },
+        "Total Defense": {
+          "points": -94.29242383037773
+        },
+        "Total SLA": {
+          "points": 608.0740086535521
+        },
+        "Voting Attack": {
+          "points": 0.0
+        },
+        "Voting Defense": {
+          "points": -28.082270341274555
+        },
+        "Voting SLA": {
+          "points": 74.45804187594514
+        },
+        "borderpatrol Attack": {
+          "points": 0.0
+        },
+        "borderpatrol Defense": {
+          "points": -2.0
+        },
+        "borderpatrol SLA": {
+          "points": 161.32575739788115
+        },
+        "deaddrop Attack": {
+          "points": 0.0
+        },
+        "deaddrop Defense": {
+          "points": -20.090756983044574
+        },
+        "deaddrop SLA": {
+          "points": 136.50641010589945
+        },
+        "piano Attack": {
+          "points": 0.0
+        },
+        "piano Defense": {
+          "points": 0.0
+        },
+        "piano SLA": {
+          "points": 0.0
+        }
+      },
+      "team": "Wani Hackase"
+    },
+    {
+      "pos": 30,
+      "score": 126.50641010589945,
+      "taskStats": {
+        "Casino Attack": {
+          "points": 0.0
+        },
+        "Casino Defense": {
+          "points": 0.0
+        },
+        "Casino SLA": {
+          "points": 0.0
+        },
+        "CyberAlchemist Attack": {
+          "points": 0.0
+        },
+        "CyberAlchemist Defense": {
+          "points": 0.0
+        },
+        "CyberAlchemist SLA": {
+          "points": 0.0
+        },
+        "Explotify Attack": {
+          "points": 0.0
+        },
+        "Explotify Defense": {
+          "points": 0.0
+        },
+        "Explotify SLA": {
+          "points": 0.0
+        },
+        "ScavengePad Attack": {
+          "points": 0.0
+        },
+        "ScavengePad Defense": {
+          "points": 0.0
+        },
+        "ScavengePad SLA": {
+          "points": 0.0
+        },
+        "Shittr Attack": {
+          "points": 0.0
+        },
+        "Shittr Defense": {
+          "points": 0.0
+        },
+        "Shittr SLA": {
+          "points": 0.0
+        },
+        "Telescopy Attack": {
+          "points": 0.0
+        },
+        "Telescopy Defense": {
+          "points": 0.0
+        },
+        "Telescopy SLA": {
+          "points": 0.0
+        },
+        "Total Attack": {
+          "points": 0.0
+        },
+        "Total Defense": {
+          "points": -10.0
+        },
+        "Total SLA": {
+          "points": 136.50641010589945
+        },
+        "Voting Attack": {
+          "points": 0.0
+        },
+        "Voting Defense": {
+          "points": 0.0
+        },
+        "Voting SLA": {
+          "points": 0.0
+        },
+        "borderpatrol Attack": {
+          "points": 0.0
+        },
+        "borderpatrol Defense": {
+          "points": 0.0
+        },
+        "borderpatrol SLA": {
+          "points": 0.0
+        },
+        "deaddrop Attack": {
+          "points": 0.0
+        },
+        "deaddrop Defense": {
+          "points": -10.0
+        },
+        "deaddrop SLA": {
+          "points": 136.50641010589945
+        },
+        "piano Attack": {
+          "points": 0.0
+        },
+        "piano Defense": {
+          "points": 0.0
+        },
+        "piano SLA": {
+          "points": 0.0
+        }
+      },
+      "team": "Lolyu"
+    },
+    {
+      "pos": 31,
+      "score": 31.355339675642,
+      "taskStats": {
+        "Casino Attack": {
+          "points": 0.0
+        },
+        "Casino Defense": {
+          "points": 0.0
+        },
+        "Casino SLA": {
+          "points": 0.0
+        },
+        "CyberAlchemist Attack": {
+          "points": 0.0
+        },
+        "CyberAlchemist Defense": {
+          "points": -14.604392605431844
+        },
+        "CyberAlchemist SLA": {
+          "points": 31.024184114977142
+        },
+        "Explotify Attack": {
+          "points": 0.0
+        },
+        "Explotify Defense": {
+          "points": 0.0
+        },
+        "Explotify SLA": {
+          "points": 0.0
+        },
+        "ScavengePad Attack": {
+          "points": 0.0
+        },
+        "ScavengePad Defense": {
+          "points": 0.0
+        },
+        "ScavengePad SLA": {
+          "points": 0.0
+        },
+        "Shittr Attack": {
+          "points": 0.0
+        },
+        "Shittr Defense": {
+          "points": 0.0
+        },
+        "Shittr SLA": {
+          "points": 0.0
+        },
+        "Telescopy Attack": {
+          "points": 0.0
+        },
+        "Telescopy Defense": {
+          "points": 0.0
+        },
+        "Telescopy SLA": {
+          "points": 0.0
+        },
+        "Total Attack": {
+          "points": 0.0
+        },
+        "Total Defense": {
+          "points": -74.12688631528029
+        },
+        "Total SLA": {
+          "points": 105.48222599092229
+        },
+        "Voting Attack": {
+          "points": 0.0
+        },
+        "Voting Defense": {
+          "points": -37.52249370984845
+        },
+        "Voting SLA": {
+          "points": 31.024184114977142
+        },
+        "borderpatrol Attack": {
+          "points": 0.0
+        },
+        "borderpatrol Defense": {
+          "points": 0.0
+        },
+        "borderpatrol SLA": {
+          "points": 0.0
+        },
+        "deaddrop Attack": {
+          "points": 0.0
+        },
+        "deaddrop Defense": {
+          "points": -10.0
+        },
+        "deaddrop SLA": {
+          "points": 0.0
+        },
+        "piano Attack": {
+          "points": 0.0
+        },
+        "piano Defense": {
+          "points": -12.0
+        },
+        "piano SLA": {
+          "points": 43.433857760967996
+        }
+      },
+      "team": "\u65e5\u7206\u6885\u5b50\u9152"
+    }
+  ],
+  "tasks": [
+    "Total Attack",
+    "Total Defense",
+    "Total SLA",
+    "Telescopy Attack",
+    "Telescopy Defense",
+    "Telescopy SLA",
+    "borderpatrol Attack",
+    "borderpatrol Defense",
+    "borderpatrol SLA",
+    "Shittr Attack",
+    "Shittr Defense",
+    "Shittr SLA",
+    "Voting Attack",
+    "Voting Defense",
+    "Voting SLA",
+    "Casino Attack",
+    "Casino Defense",
+    "Casino SLA",
+    "ScavengePad Attack",
+    "ScavengePad Defense",
+    "ScavengePad SLA",
+    "Explotify Attack",
+    "Explotify Defense",
+    "Explotify SLA",
+    "piano Attack",
+    "piano Defense",
+    "piano SLA",
+    "CyberAlchemist Attack",
+    "CyberAlchemist Defense",
+    "CyberAlchemist SLA",
+    "deaddrop Attack",
+    "deaddrop Defense",
+    "deaddrop SLA"
+  ]
+}

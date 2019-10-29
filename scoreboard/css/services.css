@@ -1,39 +1,48 @@
 /* service specific styles */
-.service-Broadcast {
-}
 
-.service-borderpatrol {
-}
+/* emty classes are auto prepared by the scoreboard app */
+/* will be auto appended if a service is missing */
+/* changes stay until container is wiped */
 
-.service-detailed {
-}
 
-.service-Voting {
-}
 
-.service-Bunkermail {
-}
-
-.service-Cyber-Alchemist {
-}
-
-.service-Explotify {
-}
-
-.service-deaddrop {
-}
-
-.service-piano {
-}
-
-.service-Casino {
-}
-
-.service-Telescopy {
-}
-
-.service-Shittr {
-}
-
-.service-ScavengePad {
-}
+                    .service-Telescopy {
+                            /* display: none; */
+                    })
+                    
+                    .service-borderpatrol {
+                            /* display: none; */
+                    })
+                    
+                    .service-Shittr {
+                            /* display: none; */
+                    })
+                    
+                    .service-Voting {
+                            /* display: none; */
+                    })
+                    
+                    .service-Casino {
+                            /* display: none; */
+                    })
+                    
+                    .service-ScavengePad {
+                            /* display: none; */
+                    })
+                    
+                    .service-Explotify {
+                            /* display: none; */
+                    })
+                    
+                    .service-piano {
+                            /* display: none; */
+                    })
+                    
+                    .service-CyberAlchemist {
+                            /* display: none; */
+                    })
+                    
+                    .service-deaddrop {
+                            /* display: none; */
+                    })
+                    

@@ -1,6 +1,6 @@
 body {
     padding-top: 7rem;
-    background: black;
+    background: #111;
     color: white;
     font-size: 16px;
     font-family: monospace;
@@ -75,7 +75,7 @@ body {
 }
 
 
-/* history navigation to change round */
+/* navigation and headline */
 .gotoform {
     float: right; 
 }
@@ -90,7 +90,7 @@ body {
     padding: 12px;
     color: white;
     border-radius: 5px;
-    background: black;
+    background: #111;
 }
 
 .navarrow:hover {
@@ -100,9 +100,13 @@ body {
 
 .navarrowdisabled {
     padding: 12px;
-    color: black;
+    color: #111;
     border-radius: 5px;
-    background: black;
+    background: #111;
+}
+
+.headline {
+    text-align: center
 }
 
 
@@ -120,14 +124,21 @@ a:hover, a:active {
 
 /* footer bar for additional references */
 .footerbar {
+    display: inline;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
     margin-top: 5rem;
     height: 55px;
     text-align: center;
+    background-color: black;
     border-radius: 5px;
     border-top: 3px white solid;
     box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
     padding: 6px;
-}
+    z-index: 10;
+ }
 
 .footeritem {
     padding: 12px;
@@ -156,12 +167,22 @@ a:hover, a:active {
 }
 
 
-/* table text formatting */
+/* table formatting */
 .scoreboard {
 }
 
-.scoreboard h1 {
-    text-align: center
+.thead {
+    position:sticky;
+    position:-webkit-sticky;
+    top: 58px;
+    background: black;
+    z-index: 5;
+}
+
+.thead2 {
+    border-top-color: black;
+    background: black;
+    z-index: 4;
 }
 
 .teamlink {
@@ -176,6 +197,10 @@ a:hover, a:active {
   font-size: 55%;
 }
 
+td.nostatus {
+    background: black;
+}
+
 td.status-Unchecked {
     color: black;
     background: grey;
@@ -183,38 +208,45 @@ td.status-Unchecked {
 
 td.status-Ok {
     color: black;
-    background: chartreuse;
+    background: #73e744;
 }
 
 td.status-Recovering {
     color: black;
-    background: lightskyblue;
+    background: #87CEFA;
 }
 
 td.status-Mumbling {
     color: black;
-    background: orange;
+    background: #EEA522;
 }
 
 td.status-Down {
     color: black;
-    background: red;
+    background: #EE1111;
+}
+
+.table-hover > tbody > tr:hover > td, 
+.table-hover > tbody > tr:hover > th {
+    filter: brightness(125%);
 }
 
 i.icon {
     width: 16px;
 }
 
-.firstblood {
-    font-size: 60%;
-}
 
 .firstblooditem {
+    font-size: 72%;
     color: red;
 }
 
 .autoreloadicon {
     color: lightgreen;
+}
+
+.activeorderby {
+    color: yellow;
 }
 
 /* loading animation, source https://loading.io/css/, CC0 licensed, modified */

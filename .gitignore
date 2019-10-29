@@ -129,3 +129,6 @@ dmypy.json
 
 # virtual env
 scoreboardEnv/
+
+# auto generated files
+scoreboard/css/services.css

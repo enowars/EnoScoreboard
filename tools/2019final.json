@@ -1,0 +1,2564 @@
+{
+	"CurrentRound": 127,
+	"Teams": [{
+		"Name": "saarsec",
+		"TeamId": 28,
+		"TotalPoints": 19712.45274338363,
+		"AttackPoints": 6962.7050505050238,
+		"LostDefensePoints": -156.31289895187726,
+		"ServiceLevelAgreementPoints": 12906.060591830485,
+		"ServiceDetails": {
+			"13": {
+				"ServiceId": 13,
+				"AttackPoints": 455.81666666666621,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 1315.4254064750305,
+				"ServiceStatus": 1
+			},
+			"18": {
+				"ServiceId": 18,
+				"AttackPoints": 329.0,
+				"LostDefensePoints": -3.0,
+				"ServiceLevelAgreementPoints": 1439.5221429349381,
+				"ServiceStatus": 1
+			},
+			"16": {
+				"ServiceId": 16,
+				"AttackPoints": 1243.6666666666649,
+				"LostDefensePoints": -5.0,
+				"ServiceLevelAgreementPoints": 1129.2803017851686,
+				"ServiceStatus": 1
+			},
+			"2": {
+				"ServiceId": 2,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -55.222141968832659,
+				"ServiceLevelAgreementPoints": 1445.7269797579338,
+				"ServiceStatus": 1
+			},
+			"15": {
+				"ServiceId": 15,
+				"AttackPoints": 74.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 1290.606059183049,
+				"ServiceStatus": 1
+			},
+			"9": {
+				"ServiceId": 9,
+				"AttackPoints": 1187.8201659451613,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 1576.0285530408366,
+				"ServiceStatus": 1
+			},
+			"19": {
+				"ServiceId": 19,
+				"AttackPoints": 682.05393217893175,
+				"LostDefensePoints": -13.727171322029717,
+				"ServiceLevelAgreementPoints": 825.24329745839248,
+				"ServiceStatus": 1
+			},
+			"12": {
+				"ServiceId": 12,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -54.0,
+				"ServiceLevelAgreementPoints": 1296.810896006044,
+				"ServiceStatus": 1
+			},
+			"8": {
+				"ServiceId": 8,
+				"AttackPoints": 2904.1809523809329,
+				"LostDefensePoints": -25.363585661014859,
+				"ServiceLevelAgreementPoints": 1222.3528541300991,
+				"ServiceStatus": 2
+			},
+			"17": {
+				"ServiceId": 17,
+				"AttackPoints": 86.166666666666657,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 1365.0641010589934,
+				"ServiceStatus": 1
+			}
+		}
+	}, {
+		"Name": "Bushwhackers",
+		"TeamId": 163,
+		"TotalPoints": 16399.871177752968,
+		"AttackPoints": 4036.886241536251,
+		"LostDefensePoints": -263.85799857898121,
+		"ServiceLevelAgreementPoints": 12626.842934795697,
+		"ServiceDetails": {
+			"17": {
+				"ServiceId": 17,
+				"AttackPoints": 251.16666666666686,
+				"LostDefensePoints": -2.6817928305074288,
+				"ServiceLevelAgreementPoints": 1172.7141595461364,
+				"ServiceStatus": 1
+			},
+			"13": {
+				"ServiceId": 13,
+				"AttackPoints": 92.083333333333343,
+				"LostDefensePoints": -6.6817928305074288,
+				"ServiceLevelAgreementPoints": 1321.6302432980258,
+				"ServiceStatus": 1
+			},
+			"9": {
+				"ServiceId": 9,
+				"AttackPoints": 129.66666666666652,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 1513.9801848108827,
+				"ServiceStatus": 1
+			},
+			"16": {
+				"ServiceId": 16,
+				"AttackPoints": 95.916666666666572,
+				"LostDefensePoints": -64.903934799340078,
+				"ServiceLevelAgreementPoints": 1116.8706281391778,
+				"ServiceStatus": 2
+			},
+			"18": {
+				"ServiceId": 18,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -45.817928305074275,
+				"ServiceLevelAgreementPoints": 1427.1124692889473,
+				"ServiceStatus": 1
+			},
+			"19": {
+				"ServiceId": 19,
+				"AttackPoints": 1102.7195748695738,
+				"LostDefensePoints": -18.68179283050743,
+				"ServiceLevelAgreementPoints": 1011.3884021482559,
+				"ServiceStatus": 1
+			},
+			"8": {
+				"ServiceId": 8,
+				"AttackPoints": 1834.5833333333439,
+				"LostDefensePoints": -75.681792830507419,
+				"ServiceLevelAgreementPoints": 1346.4495905900073,
+				"ServiceStatus": 1
+			},
+			"2": {
+				"ServiceId": 2,
+				"AttackPoints": 516.74999999999977,
+				"LostDefensePoints": -23.408964152537148,
+				"ServiceLevelAgreementPoints": 1222.3528541300996,
+				"ServiceStatus": 1
+			},
+			"12": {
+				"ServiceId": 12,
+				"AttackPoints": 14.0,
+				"LostDefensePoints": -26.0,
+				"ServiceLevelAgreementPoints": 1166.5093227231412,
+				"ServiceStatus": 1
+			},
+			"15": {
+				"ServiceId": 15,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 1327.8350801210211,
+				"ServiceStatus": 1
+			}
+		}
+	}, {
+		"Name": "RedGKFRocket",
+		"TeamId": 116,
+		"TotalPoints": 14154.184435715906,
+		"AttackPoints": 3168.6299284049292,
+		"LostDefensePoints": -605.080678044482,
+		"ServiceLevelAgreementPoints": 11590.635185355459,
+		"ServiceDetails": {
+			"17": {
+				"ServiceId": 17,
+				"AttackPoints": 1026.3333333333344,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 1253.3770382450764,
+				"ServiceStatus": 1
+			},
+			"13": {
+				"ServiceId": 13,
+				"AttackPoints": 97.75,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 490.18210901663872,
+				"ServiceStatus": 2
+			},
+			"16": {
+				"ServiceId": 16,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -66.245997546473546,
+				"ServiceLevelAgreementPoints": 1185.123833192127,
+				"ServiceStatus": 3
+			},
+			"18": {
+				"ServiceId": 18,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -3.0,
+				"ServiceLevelAgreementPoints": 1420.907632465952,
+				"ServiceStatus": 1
+			},
+			"2": {
+				"ServiceId": 2,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -37.373526751850193,
+				"ServiceLevelAgreementPoints": 1296.8108960060442,
+				"ServiceStatus": 1
+			},
+			"9": {
+				"ServiceId": 9,
+				"AttackPoints": 1098.2802308802304,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 1551.2092057488551,
+				"ServiceStatus": 1
+			},
+			"19": {
+				"ServiceId": 19,
+				"AttackPoints": 565.39969752469767,
+				"LostDefensePoints": -245.63336951150848,
+				"ServiceLevelAgreementPoints": 949.3400339183014,
+				"ServiceStatus": 1
+			},
+			"15": {
+				"ServiceId": 15,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 1271.9915487140627,
+				"ServiceStatus": 1
+			},
+			"12": {
+				"ServiceId": 12,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -57.0,
+				"ServiceLevelAgreementPoints": 1166.5093227231412,
+				"ServiceStatus": 1
+			},
+			"8": {
+				"ServiceId": 8,
+				"AttackPoints": 380.86666666666645,
+				"LostDefensePoints": -195.82778423464981,
+				"ServiceLevelAgreementPoints": 1005.1835653252604,
+				"ServiceStatus": 1
+			}
+		}
+	}, {
+		"Name": "FluxFingers",
+		"TeamId": 121,
+		"TotalPoints": 14110.553050608854,
+		"AttackPoints": 2904.9614579864674,
+		"LostDefensePoints": -329.20006132611474,
+		"ServiceLevelAgreementPoints": 11534.791653948501,
+		"ServiceDetails": {
+			"17": {
+				"ServiceId": 17,
+				"AttackPoints": 99.666666666666615,
+				"LostDefensePoints": -18.0,
+				"ServiceLevelAgreementPoints": 1222.3528541300993,
+				"ServiceStatus": 1
+			},
+			"13": {
+				"ServiceId": 13,
+				"AttackPoints": 3.3333333333333335,
+				"LostDefensePoints": -5.0,
+				"ServiceLevelAgreementPoints": 725.96590829046522,
+				"ServiceStatus": 1
+			},
+			"16": {
+				"ServiceId": 16,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -54.903934799340092,
+				"ServiceLevelAgreementPoints": 1129.2803017851686,
+				"ServiceStatus": 1
+			},
+			"12": {
+				"ServiceId": 12,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -53.0,
+				"ServiceLevelAgreementPoints": 1327.8350801210213,
+				"ServiceStatus": 1
+			},
+			"18": {
+				"ServiceId": 18,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -24.0,
+				"ServiceLevelAgreementPoints": 1334.0399169440168,
+				"ServiceStatus": 1
+			},
+			"2": {
+				"ServiceId": 2,
+				"AttackPoints": 445.41666666666606,
+				"LostDefensePoints": -29.772549813552008,
+				"ServiceLevelAgreementPoints": 1141.6899754311589,
+				"ServiceStatus": 2
+			},
+			"9": {
+				"ServiceId": 9,
+				"AttackPoints": 750.84401154401155,
+				"LostDefensePoints": -11.0,
+				"ServiceLevelAgreementPoints": 1526.3898584568735,
+				"ServiceStatus": 1
+			},
+			"19": {
+				"ServiceId": 19,
+				"AttackPoints": 444.63411310911357,
+				"LostDefensePoints": -18.454342644059434,
+				"ServiceLevelAgreementPoints": 930.725523449315,
+				"ServiceStatus": 1
+			},
+			"15": {
+				"ServiceId": 15,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 1098.2561176701911,
+				"ServiceStatus": 1
+			},
+			"8": {
+				"ServiceId": 8,
+				"AttackPoints": 1161.0666666666759,
+				"LostDefensePoints": -115.06923406916316,
+				"ServiceLevelAgreementPoints": 1098.2561176701918,
+				"ServiceStatus": 1
+			}
+		}
+	}, {
+		"Name": "FAUST",
+		"TeamId": 5,
+		"TotalPoints": 13253.214355131317,
+		"AttackPoints": 3651.5451298701282,
+		"LostDefensePoints": -673.54055361924566,
+		"ServiceLevelAgreementPoints": 10275.209778880435,
+		"ServiceDetails": {
+			"2": {
+				"ServiceId": 2,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -50.407476375609214,
+				"ServiceLevelAgreementPoints": 1309.2205696520352,
+				"ServiceStatus": 1
+			},
+			"13": {
+				"ServiceId": 13,
+				"AttackPoints": 102.83333333333334,
+				"LostDefensePoints": -9.0,
+				"ServiceLevelAgreementPoints": 856.26748157336988,
+				"ServiceStatus": 1
+			},
+			"15": {
+				"ServiceId": 15,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 1054.8222599092237,
+				"ServiceStatus": 1
+			},
+			"9": {
+				"ServiceId": 9,
+				"AttackPoints": 774.62521645021593,
+				"LostDefensePoints": -8.0,
+				"ServiceLevelAgreementPoints": 1303.0157328290395,
+				"ServiceStatus": 1
+			},
+			"16": {
+				"ServiceId": 16,
+				"AttackPoints": 24.0,
+				"LostDefensePoints": -120.8885325356066,
+				"ServiceLevelAgreementPoints": 1098.2561176701918,
+				"ServiceStatus": 1
+			},
+			"18": {
+				"ServiceId": 18,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -44.727171322029712,
+				"ServiceLevelAgreementPoints": 955.54487074129679,
+				"ServiceStatus": 1
+			},
+			"19": {
+				"ServiceId": 19,
+				"AttackPoints": 369.46991341991344,
+				"LostDefensePoints": -107.30727238551725,
+				"ServiceLevelAgreementPoints": 384.69988302571647,
+				"ServiceStatus": 1
+			},
+			"17": {
+				"ServiceId": 17,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -12.68179283050743,
+				"ServiceLevelAgreementPoints": 1191.3286700151225,
+				"ServiceStatus": 1
+			},
+			"12": {
+				"ServiceId": 12,
+				"AttackPoints": 1402.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 1141.6899754311594,
+				"ServiceStatus": 1
+			},
+			"8": {
+				"ServiceId": 8,
+				"AttackPoints": 978.61666666666554,
+				"LostDefensePoints": -320.5283081699755,
+				"ServiceLevelAgreementPoints": 980.36421803327858,
+				"ServiceStatus": 1
+			}
+		}
+	}, {
+		"Name": "HgbSec",
+		"TeamId": 8,
+		"TotalPoints": 12909.485512764124,
+		"AttackPoints": 1719.9548562548553,
+		"LostDefensePoints": -407.30936566918484,
+		"ServiceLevelAgreementPoints": 11596.840022178454,
+		"ServiceDetails": {
+			"17": {
+				"ServiceId": 17,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 1321.6302432980258,
+				"ServiceStatus": 1
+			},
+			"2": {
+				"ServiceId": 2,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -44.176763477310381,
+				"ServiceLevelAgreementPoints": 1290.6060591830487,
+				"ServiceStatus": 1
+			},
+			"13": {
+				"ServiceId": 13,
+				"AttackPoints": 2.0,
+				"LostDefensePoints": -11.68179283050743,
+				"ServiceLevelAgreementPoints": 204.75961515884921,
+				"ServiceStatus": 3
+			},
+			"15": {
+				"ServiceId": 15,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 1321.6302432980262,
+				"ServiceStatus": 1
+			},
+			"9": {
+				"ServiceId": 9,
+				"AttackPoints": 693.82694805194853,
+				"LostDefensePoints": -16.68179283050743,
+				"ServiceLevelAgreementPoints": 1551.2092057488551,
+				"ServiceStatus": 1
+			},
+			"16": {
+				"ServiceId": 16,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -95.0925319179675,
+				"ServiceLevelAgreementPoints": 1135.4851386081639,
+				"ServiceStatus": 1
+			},
+			"19": {
+				"ServiceId": 19,
+				"AttackPoints": 632.86124153624019,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 794.21911334341519,
+				"ServiceStatus": 1
+			},
+			"12": {
+				"ServiceId": 12,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -56.0,
+				"ServiceLevelAgreementPoints": 1203.7383436611133,
+				"ServiceStatus": 1
+			},
+			"8": {
+				"ServiceId": 8,
+				"AttackPoints": 391.26666666666654,
+				"LostDefensePoints": -140.94931329086239,
+				"ServiceLevelAgreementPoints": 1346.4495905900076,
+				"ServiceStatus": 1
+			},
+			"18": {
+				"ServiceId": 18,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -42.727171322029712,
+				"ServiceLevelAgreementPoints": 1427.1124692889475,
+				"ServiceStatus": 1
+			}
+		}
+	}, {
+		"Name": "NoPwnIntended",
+		"TeamId": 78,
+		"TotalPoints": 12114.009046060393,
+		"AttackPoints": 2362.05545843046,
+		"LostDefensePoints": -231.62886056971183,
+		"ServiceLevelAgreementPoints": 9983.5824481996442,
+		"ServiceDetails": {
+			"17": {
+				"ServiceId": 17,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -4.0,
+				"ServiceLevelAgreementPoints": 998.97872850226406,
+				"ServiceStatus": 1
+			},
+			"13": {
+				"ServiceId": 13,
+				"AttackPoints": 137.59999999999994,
+				"LostDefensePoints": -7.6817928305074288,
+				"ServiceLevelAgreementPoints": 1005.1835653252602,
+				"ServiceStatus": 1
+			},
+			"2": {
+				"ServiceId": 2,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -44.813177816295514,
+				"ServiceLevelAgreementPoints": 477.77243537064794,
+				"ServiceStatus": 1
+			},
+			"9": {
+				"ServiceId": 9,
+				"AttackPoints": 534.10670995670978,
+				"LostDefensePoints": -57.13331287599383,
+				"ServiceLevelAgreementPoints": 843.85780792737876,
+				"ServiceStatus": 1
+			},
+			"16": {
+				"ServiceId": 16,
+				"AttackPoints": 824.58333333333542,
+				"LostDefensePoints": -8.0,
+				"ServiceLevelAgreementPoints": 744.58041875945139,
+				"ServiceStatus": 1
+			},
+			"18": {
+				"ServiceId": 18,
+				"AttackPoints": 75.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 1278.1963855370582,
+				"ServiceStatus": 3
+			},
+			"8": {
+				"ServiceId": 8,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -20.68179283050743,
+				"ServiceLevelAgreementPoints": 1129.2803017851684,
+				"ServiceStatus": 4
+			},
+			"19": {
+				"ServiceId": 19,
+				"AttackPoints": 790.76541514041469,
+				"LostDefensePoints": -89.318784216407636,
+				"ServiceLevelAgreementPoints": 775.60460287442868,
+				"ServiceStatus": 1
+			},
+			"12": {
+				"ServiceId": 12,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 1358.8592642359979,
+				"ServiceStatus": 1
+			},
+			"15": {
+				"ServiceId": 15,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 1371.2689378819889,
+				"ServiceStatus": 1
+			}
+		}
+	}, {
+		"Name": "No0wnY0u",
+		"TeamId": 114,
+		"TotalPoints": 11944.094923907189,
+		"AttackPoints": 1753.7609307359305,
+		"LostDefensePoints": -897.70940952157116,
+		"ServiceLevelAgreementPoints": 11088.043402692829,
+		"ServiceDetails": {
+			"17": {
+				"ServiceId": 17,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -75.545099627104,
+				"ServiceLevelAgreementPoints": 564.64015089258362,
+				"ServiceStatus": 3
+			},
+			"13": {
+				"ServiceId": 13,
+				"AttackPoints": 134.96666666666667,
+				"LostDefensePoints": -27.408964152537148,
+				"ServiceLevelAgreementPoints": 881.08682886535144,
+				"ServiceStatus": 1
+			},
+			"16": {
+				"ServiceId": 16,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -66.732361924086291,
+				"ServiceLevelAgreementPoints": 1098.2561176701918,
+				"ServiceStatus": 1
+			},
+			"9": {
+				"ServiceId": 9,
+				"AttackPoints": 555.92377344877366,
+				"LostDefensePoints": -89.064677970226413,
+				"ServiceLevelAgreementPoints": 1551.2092057488551,
+				"ServiceStatus": 1
+			},
+			"18": {
+				"ServiceId": 18,
+				"AttackPoints": 39.0,
+				"LostDefensePoints": -38.0,
+				"ServiceLevelAgreementPoints": 1197.5335068381182,
+				"ServiceStatus": 1
+			},
+			"12": {
+				"ServiceId": 12,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -55.0,
+				"ServiceLevelAgreementPoints": 1402.2931219969657,
+				"ServiceStatus": 2
+			},
+			"19": {
+				"ServiceId": 19,
+				"AttackPoints": 553.2871572871569,
+				"LostDefensePoints": -224.11456637326191,
+				"ServiceLevelAgreementPoints": 682.53205052949716,
+				"ServiceStatus": 1
+			},
+			"8": {
+				"ServiceId": 8,
+				"AttackPoints": 461.83333333333331,
+				"LostDefensePoints": -280.907782941462,
+				"ServiceLevelAgreementPoints": 1172.7141595461362,
+				"ServiceStatus": 1
+			},
+			"2": {
+				"ServiceId": 2,
+				"AttackPoints": 8.75,
+				"LostDefensePoints": -40.935956532893393,
+				"ServiceLevelAgreementPoints": 1178.9189963691317,
+				"ServiceStatus": 1
+			},
+			"15": {
+				"ServiceId": 15,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 1358.8592642359981,
+				"ServiceStatus": 1
+			}
+		}
+	}, {
+		"Name": "ENOOP",
+		"TeamId": 200,
+		"TotalPoints": 10510.797754733741,
+		"AttackPoints": 14.0,
+		"LostDefensePoints": -647.08917936604223,
+		"ServiceLevelAgreementPoints": 11143.886934099784,
+		"ServiceDetails": {
+			"17": {
+				"ServiceId": 17,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -52.0,
+				"ServiceLevelAgreementPoints": 701.14656099848366,
+				"ServiceStatus": 3
+			},
+			"13": {
+				"ServiceId": 13,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -82.624204469489186,
+				"ServiceLevelAgreementPoints": 1129.2803017851677,
+				"ServiceStatus": 1
+			},
+			"2": {
+				"ServiceId": 2,
+				"AttackPoints": 2.0,
+				"LostDefensePoints": -1.0,
+				"ServiceLevelAgreementPoints": 1377.4737747049842,
+				"ServiceStatus": 1
+			},
+			"8": {
+				"ServiceId": 8,
+				"AttackPoints": 6.0,
+				"LostDefensePoints": -114.33768457760954,
+				"ServiceLevelAgreementPoints": 1315.4254064750303,
+				"ServiceStatus": 4
+			},
+			"16": {
+				"ServiceId": 16,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -19.68179283050743,
+				"ServiceLevelAgreementPoints": 1209.9431804841088,
+				"ServiceStatus": 1
+			},
+			"18": {
+				"ServiceId": 18,
+				"AttackPoints": 6.0,
+				"LostDefensePoints": -6.0,
+				"ServiceLevelAgreementPoints": 1476.7511638729104,
+				"ServiceStatus": 1
+			},
+			"9": {
+				"ServiceId": 9,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -300.60029793858729,
+				"ServiceLevelAgreementPoints": 1563.6188793948459,
+				"ServiceStatus": 1
+			},
+			"12": {
+				"ServiceId": 12,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -21.0,
+				"ServiceLevelAgreementPoints": 998.97872850226508,
+				"ServiceStatus": 4
+			},
+			"19": {
+				"ServiceId": 19,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -49.845199549848822,
+				"ServiceLevelAgreementPoints": 0.0,
+				"ServiceStatus": 3
+			},
+			"15": {
+				"ServiceId": 15,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 1371.2689378819891,
+				"ServiceStatus": 1
+			}
+		}
+	}, {
+		"Name": "SharLike",
+		"TeamId": 1,
+		"TotalPoints": 10058.864297336657,
+		"AttackPoints": 484.77276334776315,
+		"LostDefensePoints": -552.20216113964557,
+		"ServiceLevelAgreementPoints": 10126.293695128539,
+		"ServiceDetails": {
+			"17": {
+				"ServiceId": 17,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -17.363585661014859,
+				"ServiceLevelAgreementPoints": 1135.4851386081641,
+				"ServiceStatus": 1
+			},
+			"13": {
+				"ServiceId": 13,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -3.0,
+				"ServiceLevelAgreementPoints": 99.277389167926856,
+				"ServiceStatus": 3
+			},
+			"9": {
+				"ServiceId": 9,
+				"AttackPoints": 365.25234487734468,
+				"LostDefensePoints": -27.988418176953942,
+				"ServiceLevelAgreementPoints": 1451.9318165809289,
+				"ServiceStatus": 1
+			},
+			"12": {
+				"ServiceId": 12,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -55.0,
+				"ServiceLevelAgreementPoints": 1396.0882851739702,
+				"ServiceStatus": 1
+			},
+			"16": {
+				"ServiceId": 16,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -62.747206458983179,
+				"ServiceLevelAgreementPoints": 1135.4851386081641,
+				"ServiceStatus": 1
+			},
+			"18": {
+				"ServiceId": 18,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 1315.4254064750303,
+				"ServiceStatus": 1
+			},
+			"19": {
+				"ServiceId": 19,
+				"AttackPoints": 99.772799422799466,
+				"LostDefensePoints": -18.305001412344318,
+				"ServiceLevelAgreementPoints": 217.16928880484005,
+				"ServiceStatus": 1
+			},
+			"2": {
+				"ServiceId": 2,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -51.540349138325226,
+				"ServiceLevelAgreementPoints": 1005.1835653252599,
+				"ServiceStatus": 1
+			},
+			"8": {
+				"ServiceId": 8,
+				"AttackPoints": 19.747619047619047,
+				"LostDefensePoints": -316.257600292024,
+				"ServiceLevelAgreementPoints": 1092.0512808471963,
+				"ServiceStatus": 1
+			},
+			"15": {
+				"ServiceId": 15,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 1278.1963855370579,
+				"ServiceStatus": 1
+			}
+		}
+	}, {
+		"Name": "TUWTF",
+		"TeamId": 120,
+		"TotalPoints": 9101.3110662999952,
+		"AttackPoints": 1291.8802891552878,
+		"LostDefensePoints": -989.02783786281373,
+		"ServiceLevelAgreementPoints": 8798.4586150075211,
+		"ServiceDetails": {
+			"17": {
+				"ServiceId": 17,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -25.727171322029715,
+				"ServiceLevelAgreementPoints": 546.02564042359734,
+				"ServiceStatus": 3
+			},
+			"13": {
+				"ServiceId": 13,
+				"AttackPoints": 28.35,
+				"LostDefensePoints": -94.576335040552479,
+				"ServiceLevelAgreementPoints": 515.00145630862062,
+				"ServiceStatus": 1
+			},
+			"16": {
+				"ServiceId": 16,
+				"AttackPoints": 378.41666666666595,
+				"LostDefensePoints": -45.226892457611427,
+				"ServiceLevelAgreementPoints": 998.97872850226452,
+				"ServiceStatus": 1
+			},
+			"12": {
+				"ServiceId": 12,
+				"AttackPoints": 24.0,
+				"LostDefensePoints": -25.0,
+				"ServiceLevelAgreementPoints": 986.56905485627374,
+				"ServiceStatus": 3
+			},
+			"8": {
+				"ServiceId": 8,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -312.33779248643918,
+				"ServiceLevelAgreementPoints": 1067.2319335552145,
+				"ServiceStatus": 0
+			},
+			"2": {
+				"ServiceId": 2,
+				"AttackPoints": 405.08333333333263,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 744.58041875945139,
+				"ServiceStatus": 1
+			},
+			"9": {
+				"ServiceId": 9,
+				"AttackPoints": 268.90937950937945,
+				"LostDefensePoints": -177.32474053410871,
+				"ServiceLevelAgreementPoints": 986.56905485627385,
+				"ServiceStatus": 1
+			},
+			"19": {
+				"ServiceId": 19,
+				"AttackPoints": 177.12090964590971,
+				"LostDefensePoints": -298.15311319156473,
+				"ServiceLevelAgreementPoints": 843.85780792737876,
+				"ServiceStatus": 1
+			},
+			"15": {
+				"ServiceId": 15,
+				"AttackPoints": 10.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 1240.9673645990858,
+				"ServiceStatus": 1
+			},
+			"18": {
+				"ServiceId": 18,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -10.68179283050743,
+				"ServiceLevelAgreementPoints": 868.67715521936066,
+				"ServiceStatus": 3
+			}
+		}
+	}, {
+		"Name": "crumbs@venice",
+		"TeamId": 133,
+		"TotalPoints": 8739.721594665114,
+		"AttackPoints": 165.92004384504384,
+		"LostDefensePoints": -1248.4551399816946,
+		"ServiceLevelAgreementPoints": 9822.2566908017652,
+		"ServiceDetails": {
+			"17": {
+				"ServiceId": 17,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -98.292306086087208,
+				"ServiceLevelAgreementPoints": 719.76107146746847,
+				"ServiceStatus": 0
+			},
+			"13": {
+				"ServiceId": 13,
+				"AttackPoints": 13.2,
+				"LostDefensePoints": -26.432819730178036,
+				"ServiceLevelAgreementPoints": 335.06118844175319,
+				"ServiceStatus": 4
+			},
+			"16": {
+				"ServiceId": 16,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -113.06259102990271,
+				"ServiceLevelAgreementPoints": 912.11101298032884,
+				"ServiceStatus": 1
+			},
+			"18": {
+				"ServiceId": 18,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -4.0,
+				"ServiceLevelAgreementPoints": 1253.3770382450764,
+				"ServiceStatus": 1
+			},
+			"12": {
+				"ServiceId": 12,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -50.0,
+				"ServiceLevelAgreementPoints": 1185.1238331921265,
+				"ServiceStatus": 1
+			},
+			"2": {
+				"ServiceId": 2,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -44.897256420355596,
+				"ServiceLevelAgreementPoints": 1129.2803017851679,
+				"ServiceStatus": 1
+			},
+			"9": {
+				"ServiceId": 9,
+				"AttackPoints": 13.744877344877343,
+				"LostDefensePoints": -346.4029244040097,
+				"ServiceLevelAgreementPoints": 1309.220569652035,
+				"ServiceStatus": 1
+			},
+			"19": {
+				"ServiceId": 19,
+				"AttackPoints": 138.97516650016649,
+				"LostDefensePoints": -242.15642810288222,
+				"ServiceLevelAgreementPoints": 725.96590829046534,
+				"ServiceStatus": 1
+			},
+			"15": {
+				"ServiceId": 15,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 1123.0754649621731,
+				"ServiceStatus": 1
+			},
+			"8": {
+				"ServiceId": 8,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -323.21081420827926,
+				"ServiceLevelAgreementPoints": 1129.2803017851686,
+				"ServiceStatus": 1
+			}
+		}
+	}, {
+		"Name": "[DnO]",
+		"TeamId": 16,
+		"TotalPoints": 7912.3271442369369,
+		"AttackPoints": 2.6428571428571428,
+		"LostDefensePoints": -1397.570947399061,
+		"ServiceLevelAgreementPoints": 9307.255234493141,
+		"ServiceDetails": {
+			"2": {
+				"ServiceId": 2,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -48.065413628475753,
+				"ServiceLevelAgreementPoints": 1185.1238331921268,
+				"ServiceStatus": 1
+			},
+			"13": {
+				"ServiceId": 13,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -23.967978266446703,
+				"ServiceLevelAgreementPoints": 186.14510468986288,
+				"ServiceStatus": 3
+			},
+			"15": {
+				"ServiceId": 15,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 1327.8350801210211,
+				"ServiceStatus": 1
+			},
+			"18": {
+				"ServiceId": 18,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 74.458041875945142,
+				"ServiceStatus": 4
+			},
+			"9": {
+				"ServiceId": 9,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -545.79287904899024,
+				"ServiceLevelAgreementPoints": 1427.1124692889473,
+				"ServiceStatus": 1
+			},
+			"16": {
+				"ServiceId": 16,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -73.993608779010486,
+				"ServiceLevelAgreementPoints": 1160.3044859001457,
+				"ServiceStatus": 1
+			},
+			"19": {
+				"ServiceId": 19,
+				"AttackPoints": 2.6428571428571428,
+				"LostDefensePoints": -231.52354392124397,
+				"ServiceLevelAgreementPoints": 1005.1835653252604,
+				"ServiceStatus": 1
+			},
+			"17": {
+				"ServiceId": 17,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -66.0,
+				"ServiceLevelAgreementPoints": 564.64015089258373,
+				"ServiceStatus": 3
+			},
+			"12": {
+				"ServiceId": 12,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -56.0,
+				"ServiceLevelAgreementPoints": 1185.1238331921272,
+				"ServiceStatus": 1
+			},
+			"8": {
+				"ServiceId": 8,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -352.22752375489375,
+				"ServiceLevelAgreementPoints": 1191.3286700151227,
+				"ServiceStatus": 4
+			}
+		}
+	}, {
+		"Name": "Unislnt",
+		"TeamId": 142,
+		"TotalPoints": 6896.59615538135,
+		"AttackPoints": 292.08805916305926,
+		"LostDefensePoints": -872.320275491204,
+		"ServiceLevelAgreementPoints": 7476.8283717094955,
+		"ServiceDetails": {
+			"17": {
+				"ServiceId": 17,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 1030.0029126172419,
+				"ServiceStatus": 1
+			},
+			"13": {
+				"ServiceId": 13,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -72.3878029211663,
+				"ServiceLevelAgreementPoints": 366.08537255673053,
+				"ServiceStatus": 3
+			},
+			"18": {
+				"ServiceId": 18,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -1.0,
+				"ServiceLevelAgreementPoints": 595.664335007561,
+				"ServiceStatus": 3
+			},
+			"9": {
+				"ServiceId": 9,
+				"AttackPoints": 292.08805916305926,
+				"LostDefensePoints": -211.76279270421577,
+				"ServiceLevelAgreementPoints": 1017.5932389712513,
+				"ServiceStatus": 1
+			},
+			"16": {
+				"ServiceId": 16,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -44.885827552592339,
+				"ServiceLevelAgreementPoints": 930.72552344931432,
+				"ServiceStatus": 1
+			},
+			"2": {
+				"ServiceId": 2,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -45.72909921223544,
+				"ServiceLevelAgreementPoints": 1017.5932389712507,
+				"ServiceStatus": 1
+			},
+			"12": {
+				"ServiceId": 12,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -48.0,
+				"ServiceLevelAgreementPoints": 1203.7383436611137,
+				"ServiceStatus": 1
+			},
+			"8": {
+				"ServiceId": 8,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -75.0,
+				"ServiceLevelAgreementPoints": 781.8094396974243,
+				"ServiceStatus": 1
+			},
+			"19": {
+				"ServiceId": 19,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -370.55475310099422,
+				"ServiceLevelAgreementPoints": 440.54341443267526,
+				"ServiceStatus": 4
+			},
+			"15": {
+				"ServiceId": 15,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -3.0,
+				"ServiceLevelAgreementPoints": 93.072552344931424,
+				"ServiceStatus": 1
+			}
+		}
+	}, {
+		"Name": "***STT***",
+		"TeamId": 108,
+		"TotalPoints": 6567.709577224412,
+		"AttackPoints": 58.3838855588856,
+		"LostDefensePoints": -1228.1058266097773,
+		"ServiceLevelAgreementPoints": 7737.4315182753035,
+		"ServiceDetails": {
+			"17": {
+				"ServiceId": 17,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 1079.6416072012055,
+				"ServiceStatus": 4
+			},
+			"13": {
+				"ServiceId": 13,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -30.953133731549798,
+				"ServiceLevelAgreementPoints": 74.458041875945156,
+				"ServiceStatus": 4
+			},
+			"16": {
+				"ServiceId": 16,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -81.113124783757513,
+				"ServiceLevelAgreementPoints": 974.15938121028319,
+				"ServiceStatus": 3
+			},
+			"12": {
+				"ServiceId": 12,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -38.0,
+				"ServiceLevelAgreementPoints": 682.53205052949693,
+				"ServiceStatus": 4
+			},
+			"9": {
+				"ServiceId": 9,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -325.45853898316597,
+				"ServiceLevelAgreementPoints": 1079.6416072012053,
+				"ServiceStatus": 4
+			},
+			"18": {
+				"ServiceId": 18,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 0.0,
+				"ServiceStatus": 4
+			},
+			"19": {
+				"ServiceId": 19,
+				"AttackPoints": 58.3838855588856,
+				"LostDefensePoints": -401.36708197952578,
+				"ServiceLevelAgreementPoints": 856.26748157336976,
+				"ServiceStatus": 4
+			},
+			"8": {
+				"ServiceId": 8,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -307.20059037380912,
+				"ServiceLevelAgreementPoints": 980.36421803327835,
+				"ServiceStatus": 4
+			},
+			"2": {
+				"ServiceId": 2,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -37.013356757968992,
+				"ServiceLevelAgreementPoints": 856.26748157336931,
+				"ServiceStatus": 0
+			},
+			"15": {
+				"ServiceId": 15,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -7.0,
+				"ServiceLevelAgreementPoints": 1154.09964907715,
+				"ServiceStatus": 2
+			}
+		}
+	}, {
+		"Name": "LosLurchos",
+		"TeamId": 14,
+		"TotalPoints": 6357.1330070400163,
+		"AttackPoints": 0.0,
+		"LostDefensePoints": -952.16477044860062,
+		"ServiceLevelAgreementPoints": 7309.2977774886167,
+		"ServiceDetails": {
+			"19": {
+				"ServiceId": 19,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -392.14658634334256,
+				"ServiceLevelAgreementPoints": 546.02564042359734,
+				"ServiceStatus": 1
+			},
+			"17": {
+				"ServiceId": 17,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -81.051162162139491,
+				"ServiceLevelAgreementPoints": 769.39976605143352,
+				"ServiceStatus": 1
+			},
+			"2": {
+				"ServiceId": 2,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -42.701827967460908,
+				"ServiceLevelAgreementPoints": 1017.5932389712508,
+				"ServiceStatus": 1
+			},
+			"13": {
+				"ServiceId": 13,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -28.075912448147669,
+				"ServiceLevelAgreementPoints": 204.75961515884913,
+				"ServiceStatus": 4
+			},
+			"15": {
+				"ServiceId": 15,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 1048.617423086228,
+				"ServiceStatus": 1
+			},
+			"16": {
+				"ServiceId": 16,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -76.838961284142158,
+				"ServiceLevelAgreementPoints": 862.47231839636493,
+				"ServiceStatus": 1
+			},
+			"18": {
+				"ServiceId": 18,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 409.51923031769809,
+				"ServiceStatus": 4
+			},
+			"9": {
+				"ServiceId": 9,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -78.085678735573993,
+				"ServiceLevelAgreementPoints": 1036.2077494402376,
+				"ServiceStatus": 1
+			},
+			"12": {
+				"ServiceId": 12,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -3.0,
+				"ServiceLevelAgreementPoints": 632.89335594553359,
+				"ServiceStatus": 3
+			},
+			"8": {
+				"ServiceId": 8,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -250.26464150779381,
+				"ServiceLevelAgreementPoints": 781.80943969742407,
+				"ServiceStatus": 4
+			}
+		}
+	}, {
+		"Name": "TeamPowerPrinter",
+		"TeamId": 65,
+		"TotalPoints": 5826.3949990464116,
+		"AttackPoints": 152.84496059496058,
+		"LostDefensePoints": -1170.3849773125105,
+		"ServiceLevelAgreementPoints": 6843.9350157639619,
+		"ServiceDetails": {
+			"19": {
+				"ServiceId": 19,
+				"AttackPoints": 152.84496059496058,
+				"LostDefensePoints": -394.0359966218561,
+				"ServiceLevelAgreementPoints": 756.99009240544251,
+				"ServiceStatus": 1
+			},
+			"2": {
+				"ServiceId": 2,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -40.767799324773236,
+				"ServiceLevelAgreementPoints": 1023.7980757942464,
+				"ServiceStatus": 1
+			},
+			"13": {
+				"ServiceId": 13,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -1.0,
+				"ServiceLevelAgreementPoints": 74.458041875945142,
+				"ServiceStatus": 4
+			},
+			"17": {
+				"ServiceId": 17,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -44.006678378984496,
+				"ServiceLevelAgreementPoints": 384.69988302571647,
+				"ServiceStatus": 4
+			},
+			"9": {
+				"ServiceId": 9,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -226.35134934890488,
+				"ServiceLevelAgreementPoints": 1017.5932389712513,
+				"ServiceStatus": 1
+			},
+			"16": {
+				"ServiceId": 16,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -99.556038560053651,
+				"ServiceLevelAgreementPoints": 756.99009240544251,
+				"ServiceStatus": 1
+			},
+			"15": {
+				"ServiceId": 15,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 905.90617615733322,
+				"ServiceStatus": 1
+			},
+			"18": {
+				"ServiceId": 18,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 62.048368229954285,
+				"ServiceStatus": 4
+			},
+			"12": {
+				"ServiceId": 12,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -56.0,
+				"ServiceLevelAgreementPoints": 1036.2077494402376,
+				"ServiceStatus": 1
+			},
+			"8": {
+				"ServiceId": 8,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -308.66711507793821,
+				"ServiceLevelAgreementPoints": 825.24329745839236,
+				"ServiceStatus": 1
+			}
+		}
+	}, {
+		"Name": "[SPbCTF] fargate",
+		"TeamId": 87,
+		"TotalPoints": 5381.7650700575541,
+		"AttackPoints": 130.12178932178938,
+		"LostDefensePoints": -531.26463829597458,
+		"ServiceLevelAgreementPoints": 5782.90791903174,
+		"ServiceDetails": {
+			"17": {
+				"ServiceId": 17,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -23.68179283050743,
+				"ServiceLevelAgreementPoints": 477.77243537064771,
+				"ServiceStatus": 4
+			},
+			"13": {
+				"ServiceId": 13,
+				"AttackPoints": 4.0,
+				"LostDefensePoints": -8.68179283050743,
+				"ServiceLevelAgreementPoints": 186.14510468986288,
+				"ServiceStatus": 4
+			},
+			"16": {
+				"ServiceId": 16,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -50.635856610148565,
+				"ServiceLevelAgreementPoints": 515.00145630862028,
+				"ServiceStatus": 4
+			},
+			"2": {
+				"ServiceId": 2,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 670.12237688350638,
+				"ServiceStatus": 4
+			},
+			"18": {
+				"ServiceId": 18,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 701.14656099848366,
+				"ServiceStatus": 4
+			},
+			"12": {
+				"ServiceId": 12,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -7.0,
+				"ServiceLevelAgreementPoints": 682.53205052949727,
+				"ServiceStatus": 4
+			},
+			"9": {
+				"ServiceId": 9,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -253.02406580621215,
+				"ServiceLevelAgreementPoints": 831.448134281388,
+				"ServiceStatus": 4
+			},
+			"19": {
+				"ServiceId": 19,
+				"AttackPoints": 126.12178932178938,
+				"LostDefensePoints": -123.10974523281091,
+				"ServiceLevelAgreementPoints": 378.49504620272097,
+				"ServiceStatus": 4
+			},
+			"8": {
+				"ServiceId": 8,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -65.131384985788088,
+				"ServiceLevelAgreementPoints": 645.30302959152459,
+				"ServiceStatus": 4
+			},
+			"15": {
+				"ServiceId": 15,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 694.94172417548816,
+				"ServiceStatus": 4
+			}
+		}
+	}, {
+		"Name": "bi0s",
+		"TeamId": 48,
+		"TotalPoints": 5234.4907792624108,
+		"AttackPoints": 538.05651570651548,
+		"LostDefensePoints": -763.82214068008261,
+		"ServiceLevelAgreementPoints": 5460.2564042359782,
+		"ServiceDetails": {
+			"17": {
+				"ServiceId": 17,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -31.0,
+				"ServiceLevelAgreementPoints": 1154.09964907715,
+				"ServiceStatus": 4
+			},
+			"13": {
+				"ServiceId": 13,
+				"AttackPoints": 58.000000000000007,
+				"LostDefensePoints": -27.604392605431844,
+				"ServiceLevelAgreementPoints": 304.03700432677607,
+				"ServiceStatus": 4
+			},
+			"9": {
+				"ServiceId": 9,
+				"AttackPoints": 4.7151515151515149,
+				"LostDefensePoints": -374.11602156912431,
+				"ServiceLevelAgreementPoints": 750.78525558244723,
+				"ServiceStatus": 4
+			},
+			"12": {
+				"ServiceId": 12,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 210.96445198184463,
+				"ServiceStatus": 4
+			},
+			"16": {
+				"ServiceId": 16,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -38.0,
+				"ServiceLevelAgreementPoints": 868.67715521936054,
+				"ServiceStatus": 4
+			},
+			"18": {
+				"ServiceId": 18,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 0.0,
+				"ServiceStatus": 4
+			},
+			"19": {
+				"ServiceId": 19,
+				"AttackPoints": 475.34136419136394,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 55.84353140695886,
+				"ServiceStatus": 4
+			},
+			"2": {
+				"ServiceId": 2,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -25.817928305074293,
+				"ServiceLevelAgreementPoints": 694.94172417548816,
+				"ServiceStatus": 4
+			},
+			"8": {
+				"ServiceId": 8,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -267.28379820045211,
+				"ServiceLevelAgreementPoints": 452.95308807866604,
+				"ServiceStatus": 4
+			},
+			"15": {
+				"ServiceId": 15,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 967.95454438728791,
+				"ServiceStatus": 4
+			}
+		}
+	}, {
+		"Name": "elbrown",
+		"TeamId": 109,
+		"TotalPoints": 5046.1650652645167,
+		"AttackPoints": 0.0,
+		"LostDefensePoints": -1059.3943685629861,
+		"ServiceLevelAgreementPoints": 6105.5594338275023,
+		"ServiceDetails": {
+			"17": {
+				"ServiceId": 17,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -38.9292781539089,
+				"ServiceLevelAgreementPoints": 452.95308807866604,
+				"ServiceStatus": 3
+			},
+			"18": {
+				"ServiceId": 18,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -3.0,
+				"ServiceLevelAgreementPoints": 595.66433500756114,
+				"ServiceStatus": 1
+			},
+			"13": {
+				"ServiceId": 13,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -89.187810798522563,
+				"ServiceLevelAgreementPoints": 459.15792490166143,
+				"ServiceStatus": 1
+			},
+			"12": {
+				"ServiceId": 12,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -41.0,
+				"ServiceLevelAgreementPoints": 676.32721370650165,
+				"ServiceStatus": 1
+			},
+			"9": {
+				"ServiceId": 9,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -348.88006735257704,
+				"ServiceLevelAgreementPoints": 943.1351970953059,
+				"ServiceStatus": 1
+			},
+			"16": {
+				"ServiceId": 16,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -113.41608264479945,
+				"ServiceLevelAgreementPoints": 756.99009240544251,
+				"ServiceStatus": 1
+			},
+			"19": {
+				"ServiceId": 19,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -192.59030936953781,
+				"ServiceLevelAgreementPoints": 353.67569891073941,
+				"ServiceStatus": 1
+			},
+			"8": {
+				"ServiceId": 8,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -178.94464375549319,
+				"ServiceLevelAgreementPoints": 490.18210901663855,
+				"ServiceStatus": 4
+			},
+			"2": {
+				"ServiceId": 2,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -46.446176488147017,
+				"ServiceLevelAgreementPoints": 862.472318396365,
+				"ServiceStatus": 1
+			},
+			"15": {
+				"ServiceId": 15,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -7.0,
+				"ServiceLevelAgreementPoints": 515.00145630862039,
+				"ServiceStatus": 1
+			}
+		}
+	}, {
+		"Name": "SIGSEGV",
+		"TeamId": 136,
+		"TotalPoints": 4502.930258433521,
+		"AttackPoints": 0.0,
+		"LostDefensePoints": -479.55371043180628,
+		"ServiceLevelAgreementPoints": 4982.4839688653274,
+		"ServiceDetails": {
+			"17": {
+				"ServiceId": 17,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -7.0,
+				"ServiceLevelAgreementPoints": 446.7482512556706,
+				"ServiceStatus": 4
+			},
+			"13": {
+				"ServiceId": 13,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -22.688471209491926,
+				"ServiceLevelAgreementPoints": 353.67569891073941,
+				"ServiceStatus": 4
+			},
+			"18": {
+				"ServiceId": 18,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 546.02564042359734,
+				"ServiceStatus": 4
+			},
+			"16": {
+				"ServiceId": 16,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -17.0,
+				"ServiceLevelAgreementPoints": 421.928903963689,
+				"ServiceStatus": 4
+			},
+			"2": {
+				"ServiceId": 2,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 546.02564042359757,
+				"ServiceStatus": 0
+			},
+			"8": {
+				"ServiceId": 8,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -68.732766697640045,
+				"ServiceLevelAgreementPoints": 508.79661948562489,
+				"ServiceStatus": 4
+			},
+			"9": {
+				"ServiceId": 9,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -202.13768258638075,
+				"ServiceLevelAgreementPoints": 601.86917183055641,
+				"ServiceStatus": 4
+			},
+			"19": {
+				"ServiceId": 19,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -160.99478993829359,
+				"ServiceLevelAgreementPoints": 235.78379927382633,
+				"ServiceStatus": 4
+			},
+			"12": {
+				"ServiceId": 12,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -1.0,
+				"ServiceLevelAgreementPoints": 688.73688735249266,
+				"ServiceStatus": 4
+			},
+			"15": {
+				"ServiceId": 15,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 632.89335594553359,
+				"ServiceStatus": 4
+			}
+		}
+	}, {
+		"Name": "onotch",
+		"TeamId": 82,
+		"TotalPoints": 4425.2388709812521,
+		"AttackPoints": 1.125,
+		"LostDefensePoints": -887.22644950283586,
+		"ServiceLevelAgreementPoints": 5311.3403204840879,
+		"ServiceDetails": {
+			"15": {
+				"ServiceId": 15,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 483.97727219364322,
+				"ServiceStatus": 1
+			},
+			"13": {
+				"ServiceId": 13,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -3.363585661014858,
+				"ServiceLevelAgreementPoints": 0.0,
+				"ServiceStatus": 4
+			},
+			"17": {
+				"ServiceId": 17,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -55.681792830507433,
+				"ServiceLevelAgreementPoints": 235.78379927382636,
+				"ServiceStatus": 3
+			},
+			"9": {
+				"ServiceId": 9,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -209.91172627586911,
+				"ServiceLevelAgreementPoints": 788.0142765204198,
+				"ServiceStatus": 1
+			},
+			"16": {
+				"ServiceId": 16,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -115.4261766909176,
+				"ServiceLevelAgreementPoints": 850.06264475037426,
+				"ServiceStatus": 1
+			},
+			"2": {
+				"ServiceId": 2,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -29.817928305074293,
+				"ServiceLevelAgreementPoints": 564.640150892584,
+				"ServiceStatus": 2
+			},
+			"12": {
+				"ServiceId": 12,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 682.53205052949716,
+				"ServiceStatus": 1
+			},
+			"19": {
+				"ServiceId": 19,
+				"AttackPoints": 1.125,
+				"LostDefensePoints": -233.03386843502722,
+				"ServiceLevelAgreementPoints": 496.386945839634,
+				"ServiceStatus": 1
+			},
+			"8": {
+				"ServiceId": 8,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -239.99137130442537,
+				"ServiceLevelAgreementPoints": 713.55623464447444,
+				"ServiceStatus": 1
+			},
+			"18": {
+				"ServiceId": 18,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 496.386945839634,
+				"ServiceStatus": 1
+			}
+		}
+	}, {
+		"Name": "Omaviat",
+		"TeamId": 80,
+		"TotalPoints": 3680.4567813314206,
+		"AttackPoints": 9.49090909090909,
+		"LostDefensePoints": -424.22643093647025,
+		"ServiceLevelAgreementPoints": 4095.1923031769816,
+		"ServiceDetails": {
+			"17": {
+				"ServiceId": 17,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -33.363585661014859,
+				"ServiceLevelAgreementPoints": 440.54341443267538,
+				"ServiceStatus": 4
+			},
+			"19": {
+				"ServiceId": 19,
+				"AttackPoints": 1.2,
+				"LostDefensePoints": -38.35253276099651,
+				"ServiceLevelAgreementPoints": 68.25320505294971,
+				"ServiceStatus": 4
+			},
+			"2": {
+				"ServiceId": 2,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -7.0,
+				"ServiceLevelAgreementPoints": 676.32721370650142,
+				"ServiceStatus": 4
+			},
+			"13": {
+				"ServiceId": 13,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -21.153312673223255,
+				"ServiceLevelAgreementPoints": 204.75961515884919,
+				"ServiceStatus": 4
+			},
+			"9": {
+				"ServiceId": 9,
+				"AttackPoints": 8.290909090909091,
+				"LostDefensePoints": -155.85925641739544,
+				"ServiceLevelAgreementPoints": 459.15792490166143,
+				"ServiceStatus": 4
+			},
+			"16": {
+				"ServiceId": 16,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -34.408964152537145,
+				"ServiceLevelAgreementPoints": 570.84498771557924,
+				"ServiceStatus": 4
+			},
+			"8": {
+				"ServiceId": 8,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -134.08877927130303,
+				"ServiceLevelAgreementPoints": 440.54341443267521,
+				"ServiceStatus": 4
+			},
+			"12": {
+				"ServiceId": 12,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 483.97727219364316,
+				"ServiceStatus": 4
+			},
+			"15": {
+				"ServiceId": 15,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 353.67569891073936,
+				"ServiceStatus": 4
+			},
+			"18": {
+				"ServiceId": 18,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 397.10955667170737,
+				"ServiceStatus": 4
+			}
+		}
+	}, {
+		"Name": "MLPWN",
+		"TeamId": 64,
+		"TotalPoints": 2898.7251224520974,
+		"AttackPoints": 211.0,
+		"LostDefensePoints": -129.27079518782654,
+		"ServiceLevelAgreementPoints": 2816.9959176399238,
+		"ServiceDetails": {
+			"17": {
+				"ServiceId": 17,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 210.96445198184463,
+				"ServiceStatus": 4
+			},
+			"13": {
+				"ServiceId": 13,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -21.643092717969637,
+				"ServiceLevelAgreementPoints": 235.78379927382636,
+				"ServiceStatus": 4
+			},
+			"9": {
+				"ServiceId": 9,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -84.5022481891832,
+				"ServiceLevelAgreementPoints": 446.7482512556706,
+				"ServiceStatus": 4
+			},
+			"16": {
+				"ServiceId": 16,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 155.12092057488576,
+				"ServiceStatus": 4
+			},
+			"18": {
+				"ServiceId": 18,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 409.51923031769809,
+				"ServiceStatus": 4
+			},
+			"19": {
+				"ServiceId": 19,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -23.125454280673697,
+				"ServiceLevelAgreementPoints": 80.662878698940574,
+				"ServiceStatus": 4
+			},
+			"2": {
+				"ServiceId": 2,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 186.14510468986279,
+				"ServiceStatus": 4
+			},
+			"12": {
+				"ServiceId": 12,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 378.495046202721,
+				"ServiceStatus": 4
+			},
+			"8": {
+				"ServiceId": 8,
+				"AttackPoints": 211.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 421.92890396368892,
+				"ServiceStatus": 4
+			},
+			"15": {
+				"ServiceId": 15,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 291.62733068078518,
+				"ServiceStatus": 4
+			}
+		}
+	}, {
+		"Name": "UlisseLabBO",
+		"TeamId": 79,
+		"TotalPoints": 2622.7714845526211,
+		"AttackPoints": 79.094166944166972,
+		"LostDefensePoints": -378.80082602239173,
+		"ServiceLevelAgreementPoints": 2922.4781436308458,
+		"ServiceDetails": {
+			"17": {
+				"ServiceId": 17,
+				"AttackPoints": 4.8333333333333339,
+				"LostDefensePoints": -54.408406423700555,
+				"ServiceLevelAgreementPoints": 359.88053573373475,
+				"ServiceStatus": 1
+			},
+			"19": {
+				"ServiceId": 19,
+				"AttackPoints": 40.506432456432478,
+				"LostDefensePoints": -34.238797018955253,
+				"ServiceLevelAgreementPoints": 18.614510468986285,
+				"ServiceStatus": 3
+			},
+			"13": {
+				"ServiceId": 13,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -4.6817928305074288,
+				"ServiceLevelAgreementPoints": 0.0,
+				"ServiceStatus": 4
+			},
+			"2": {
+				"ServiceId": 2,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -45.579049250863029,
+				"ServiceLevelAgreementPoints": 471.56759854765232,
+				"ServiceStatus": 1
+			},
+			"9": {
+				"ServiceId": 9,
+				"AttackPoints": 33.754401154401165,
+				"LostDefensePoints": -44.396273033182247,
+				"ServiceLevelAgreementPoints": 384.69988302571647,
+				"ServiceStatus": 1
+			},
+			"16": {
+				"ServiceId": 16,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -93.125146720081375,
+				"ServiceLevelAgreementPoints": 409.51923031769815,
+				"ServiceStatus": 1
+			},
+			"18": {
+				"ServiceId": 18,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -7.0,
+				"ServiceLevelAgreementPoints": 434.33857760967982,
+				"ServiceStatus": 1
+			},
+			"12": {
+				"ServiceId": 12,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 359.8805357337348,
+				"ServiceStatus": 1
+			},
+			"8": {
+				"ServiceId": 8,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -70.371360745101867,
+				"ServiceLevelAgreementPoints": 124.09673645990858,
+				"ServiceStatus": 4
+			},
+			"15": {
+				"ServiceId": 15,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -25.0,
+				"ServiceLevelAgreementPoints": 359.8805357337348,
+				"ServiceStatus": 1
+			}
+		}
+	}, {
+		"Name": "squareroots",
+		"TeamId": 174,
+		"TotalPoints": 1770.634301767177,
+		"AttackPoints": 529.52370129870133,
+		"LostDefensePoints": -384.55664715632673,
+		"ServiceLevelAgreementPoints": 1625.6672476248025,
+		"ServiceDetails": {
+			"17": {
+				"ServiceId": 17,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -19.0,
+				"ServiceLevelAgreementPoints": 86.867715521935992,
+				"ServiceStatus": 3
+			},
+			"13": {
+				"ServiceId": 13,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -26.523576713222607,
+				"ServiceLevelAgreementPoints": 43.433857760967996,
+				"ServiceStatus": 4
+			},
+			"2": {
+				"ServiceId": 2,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -9.0453784915222872,
+				"ServiceLevelAgreementPoints": 279.21765703479429,
+				"ServiceStatus": 0
+			},
+			"8": {
+				"ServiceId": 8,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -107.44460964479444,
+				"ServiceLevelAgreementPoints": 105.4822259909223,
+				"ServiceStatus": 4
+			},
+			"19": {
+				"ServiceId": 19,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -173.7880682127774,
+				"ServiceLevelAgreementPoints": 266.80798338880351,
+				"ServiceStatus": 3
+			},
+			"18": {
+				"ServiceId": 18,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 86.867715521935992,
+				"ServiceStatus": 3
+			},
+			"9": {
+				"ServiceId": 9,
+				"AttackPoints": 529.52370129870133,
+				"LostDefensePoints": -31.755014094010004,
+				"ServiceLevelAgreementPoints": 217.16928880484002,
+				"ServiceStatus": 3
+			},
+			"16": {
+				"ServiceId": 16,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -17.0,
+				"ServiceLevelAgreementPoints": 273.01282021179884,
+				"ServiceStatus": 3
+			},
+			"12": {
+				"ServiceId": 12,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 0.0,
+				"ServiceStatus": 4
+			},
+			"15": {
+				"ServiceId": 15,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 266.80798338880339,
+				"ServiceStatus": 3
+			}
+		}
+	}, {
+		"Name": "AbbHackIO",
+		"TeamId": 162,
+		"TotalPoints": 1691.4072357246719,
+		"AttackPoints": 0.0,
+		"LostDefensePoints": -486.49048914672358,
+		"ServiceLevelAgreementPoints": 2177.8977248713954,
+		"ServiceDetails": {
+			"17": {
+				"ServiceId": 17,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -13.68179283050743,
+				"ServiceLevelAgreementPoints": 142.71124692889487,
+				"ServiceStatus": 3
+			},
+			"13": {
+				"ServiceId": 13,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -11.240806944416985,
+				"ServiceLevelAgreementPoints": 12.409673645990857,
+				"ServiceStatus": 4
+			},
+			"2": {
+				"ServiceId": 2,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -13.688471209491924,
+				"ServiceLevelAgreementPoints": 409.51923031769826,
+				"ServiceStatus": 1
+			},
+			"9": {
+				"ServiceId": 9,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -208.37195098790303,
+				"ServiceLevelAgreementPoints": 341.26602526474858,
+				"ServiceStatus": 1
+			},
+			"16": {
+				"ServiceId": 16,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -30.604392605431844,
+				"ServiceLevelAgreementPoints": 335.06118844175319,
+				"ServiceStatus": 1
+			},
+			"18": {
+				"ServiceId": 18,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -1.0,
+				"ServiceLevelAgreementPoints": 37.229020937972571,
+				"ServiceStatus": 2
+			},
+			"12": {
+				"ServiceId": 12,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -11.0,
+				"ServiceLevelAgreementPoints": 316.44667797276708,
+				"ServiceStatus": 2
+			},
+			"19": {
+				"ServiceId": 19,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -144.52451353425849,
+				"ServiceLevelAgreementPoints": 117.89189963691317,
+				"ServiceStatus": 4
+			},
+			"8": {
+				"ServiceId": 8,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -52.378561034713918,
+				"ServiceLevelAgreementPoints": 62.048368229954285,
+				"ServiceStatus": 4
+			},
+			"15": {
+				"ServiceId": 15,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 403.31439349470293,
+				"ServiceStatus": 1
+			}
+		}
+	}, {
+		"Name": "gorogoroumaru",
+		"TeamId": 61,
+		"TotalPoints": 741.83134356742289,
+		"AttackPoints": 0.0,
+		"LostDefensePoints": -21.363585661014859,
+		"ServiceLevelAgreementPoints": 763.19492922843779,
+		"ServiceDetails": {
+			"19": {
+				"ServiceId": 19,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -2.0,
+				"ServiceLevelAgreementPoints": 31.024184114977142,
+				"ServiceStatus": 4
+			},
+			"17": {
+				"ServiceId": 17,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 86.867715521935992,
+				"ServiceStatus": 4
+			},
+			"13": {
+				"ServiceId": 13,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -7.6817928305074288,
+				"ServiceLevelAgreementPoints": 161.32575739788118,
+				"ServiceStatus": 4
+			},
+			"9": {
+				"ServiceId": 9,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -8.68179283050743,
+				"ServiceLevelAgreementPoints": 148.91608375189031,
+				"ServiceStatus": 4
+			},
+			"16": {
+				"ServiceId": 16,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 55.843531406958853,
+				"ServiceStatus": 4
+			},
+			"2": {
+				"ServiceId": 2,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 0.0,
+				"ServiceStatus": 4
+			},
+			"12": {
+				"ServiceId": 12,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -3.0,
+				"ServiceLevelAgreementPoints": 55.843531406958853,
+				"ServiceStatus": 4
+			},
+			"8": {
+				"ServiceId": 8,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 111.68706281391772,
+				"ServiceStatus": 4
+			},
+			"18": {
+				"ServiceId": 18,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 62.048368229954285,
+				"ServiceStatus": 4
+			},
+			"15": {
+				"ServiceId": 15,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 49.638694583963428,
+				"ServiceStatus": 4
+			}
+		}
+	}, {
+		"Name": "pokedex",
+		"TeamId": 85,
+		"TotalPoints": 707.07927863696239,
+		"AttackPoints": 0.0,
+		"LostDefensePoints": -12.68179283050743,
+		"ServiceLevelAgreementPoints": 719.76107146746983,
+		"ServiceDetails": {
+			"17": {
+				"ServiceId": 17,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 223.3741256278355,
+				"ServiceStatus": 4
+			},
+			"9": {
+				"ServiceId": 9,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 0.0,
+				"ServiceStatus": 4
+			},
+			"13": {
+				"ServiceId": 13,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -1.681792830507429,
+				"ServiceLevelAgreementPoints": 0.0,
+				"ServiceStatus": 4
+			},
+			"2": {
+				"ServiceId": 2,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -6.0,
+				"ServiceLevelAgreementPoints": 105.48222599092229,
+				"ServiceStatus": 4
+			},
+			"16": {
+				"ServiceId": 16,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -1.0,
+				"ServiceLevelAgreementPoints": 161.32575739788118,
+				"ServiceStatus": 4
+			},
+			"8": {
+				"ServiceId": 8,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 0.0,
+				"ServiceStatus": 4
+			},
+			"19": {
+				"ServiceId": 19,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 0.0,
+				"ServiceStatus": 4
+			},
+			"12": {
+				"ServiceId": 12,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -4.0,
+				"ServiceLevelAgreementPoints": 124.09673645990861,
+				"ServiceStatus": 4
+			},
+			"15": {
+				"ServiceId": 15,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 0.0,
+				"ServiceStatus": 4
+			},
+			"18": {
+				"ServiceId": 18,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 105.48222599092229,
+				"ServiceStatus": 4
+			}
+		}
+	}, {
+		"Name": "Wani Hackase",
+		"TeamId": 161,
+		"TotalPoints": 513.7815848231744,
+		"AttackPoints": 0.0,
+		"LostDefensePoints": -94.292423830377729,
+		"ServiceLevelAgreementPoints": 608.07400865355214,
+		"ServiceDetails": {
+			"17": {
+				"ServiceId": 17,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 0.0,
+				"ServiceStatus": 4
+			},
+			"13": {
+				"ServiceId": 13,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -2.6817928305074288,
+				"ServiceLevelAgreementPoints": 24.819347291981714,
+				"ServiceStatus": 3
+			},
+			"9": {
+				"ServiceId": 9,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -28.082270341274555,
+				"ServiceLevelAgreementPoints": 74.458041875945142,
+				"ServiceStatus": 4
+			},
+			"8": {
+				"ServiceId": 8,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -25.638342229190872,
+				"ServiceLevelAgreementPoints": 68.25320505294971,
+				"ServiceStatus": 4
+			},
+			"16": {
+				"ServiceId": 16,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -20.090756983044574,
+				"ServiceLevelAgreementPoints": 136.50641010589945,
+				"ServiceStatus": 3
+			},
+			"18": {
+				"ServiceId": 18,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 0.0,
+				"ServiceStatus": 4
+			},
+			"12": {
+				"ServiceId": 12,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 105.4822259909223,
+				"ServiceStatus": 3
+			},
+			"19": {
+				"ServiceId": 19,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -15.79926144636031,
+				"ServiceLevelAgreementPoints": 24.819347291981714,
+				"ServiceStatus": 3
+			},
+			"2": {
+				"ServiceId": 2,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -2.0,
+				"ServiceLevelAgreementPoints": 161.32575739788115,
+				"ServiceStatus": 0
+			},
+			"15": {
+				"ServiceId": 15,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 12.409673645990857,
+				"ServiceStatus": 3
+			}
+		}
+	}, {
+		"Name": "Lolyu",
+		"TeamId": 46,
+		"TotalPoints": 126.50641010589945,
+		"AttackPoints": 0.0,
+		"LostDefensePoints": -10.0,
+		"ServiceLevelAgreementPoints": 136.50641010589945,
+		"ServiceDetails": {
+			"19": {
+				"ServiceId": 19,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 0.0,
+				"ServiceStatus": 4
+			},
+			"13": {
+				"ServiceId": 13,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 0.0,
+				"ServiceStatus": 4
+			},
+			"2": {
+				"ServiceId": 2,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 0.0,
+				"ServiceStatus": 4
+			},
+			"17": {
+				"ServiceId": 17,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 0.0,
+				"ServiceStatus": 4
+			},
+			"9": {
+				"ServiceId": 9,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 0.0,
+				"ServiceStatus": 4
+			},
+			"16": {
+				"ServiceId": 16,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -10.0,
+				"ServiceLevelAgreementPoints": 136.50641010589945,
+				"ServiceStatus": 4
+			},
+			"18": {
+				"ServiceId": 18,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 0.0,
+				"ServiceStatus": 4
+			},
+			"12": {
+				"ServiceId": 12,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 0.0,
+				"ServiceStatus": 4
+			},
+			"8": {
+				"ServiceId": 8,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 0.0,
+				"ServiceStatus": 4
+			},
+			"15": {
+				"ServiceId": 15,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 0.0,
+				"ServiceStatus": 4
+			}
+		}
+	}, {
+		"Name": "日爆梅子酒",
+		"TeamId": 2,
+		"TotalPoints": 31.355339675642,
+		"AttackPoints": 0.0,
+		"LostDefensePoints": -74.126886315280288,
+		"ServiceLevelAgreementPoints": 105.48222599092229,
+		"ServiceDetails": {
+			"2": {
+				"ServiceId": 2,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 0.0,
+				"ServiceStatus": 4
+			},
+			"15": {
+				"ServiceId": 15,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 0.0,
+				"ServiceStatus": 0
+			},
+			"17": {
+				"ServiceId": 17,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -12.0,
+				"ServiceLevelAgreementPoints": 43.433857760967996,
+				"ServiceStatus": 4
+			},
+			"13": {
+				"ServiceId": 13,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -14.604392605431844,
+				"ServiceLevelAgreementPoints": 31.024184114977142,
+				"ServiceStatus": 4
+			},
+			"9": {
+				"ServiceId": 9,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -37.522493709848447,
+				"ServiceLevelAgreementPoints": 31.024184114977142,
+				"ServiceStatus": 4
+			},
+			"19": {
+				"ServiceId": 19,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 0.0,
+				"ServiceStatus": 4
+			},
+			"18": {
+				"ServiceId": 18,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 0.0,
+				"ServiceStatus": 4
+			},
+			"16": {
+				"ServiceId": 16,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": -10.0,
+				"ServiceLevelAgreementPoints": 0.0,
+				"ServiceStatus": 0
+			},
+			"12": {
+				"ServiceId": 12,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 0.0,
+				"ServiceStatus": 4
+			},
+			"8": {
+				"ServiceId": 8,
+				"AttackPoints": 0.0,
+				"LostDefensePoints": 0.0,
+				"ServiceLevelAgreementPoints": 0.0,
+				"ServiceStatus": 4
+			}
+		}
+	}],
+	"Services": {
+		"19": {
+			"Name": "Telescopy"
+		},
+		"2": {
+			"Name": "borderpatrol"
+		},
+		"8": {
+			"Name": "Shittr"
+		},
+		"9": {
+			"Name": "Voting"
+		},
+		"12": {
+			"Name": "Casino"
+		},
+		"18": {
+			"Name": "ScavengePad"
+		},
+		"15": {
+			"Name": "Explotify"
+		},
+		"17": {
+			"Name": "piano"
+		},
+		"13": {
+			"Name": "CyberAlchemist"
+		},
+		"16": {
+			"Name": "deaddrop"
+		}
+	}
+}

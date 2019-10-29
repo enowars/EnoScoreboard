@@ -2,9 +2,8 @@ version: '3.3'
 services:
   enoscoreboard:
     build: .
-    image: dockerreg.enowars.com:5000/enoscoreboard
     volumes:
       - .:/service
       - ../data:/data
     ports:
-      - "8090:8000"
+      - "80:8000"

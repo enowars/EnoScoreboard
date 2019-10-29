@@ -1,404 +1,321 @@
 <!doctype html>
 <html lang="en">
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Scoreboard &ndash; ENOWARS 3</title>
-  <link rel="stylesheet" href="/css/bootstrap-3.3.7.min.css">
-  <link rel="stylesheet" href="/css/fontawesome-5.1.0.css">
-  <link rel="stylesheet" href="/css/scoreboard.css">
-  <link rel="stylesheet" href="/css/services.css">
-  <script src="/js/services.js"></script>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Scoreboard &ndash; ENOWARS 3</title>
+    <link rel="stylesheet" href="/css/bootstrap-4.3.1.min.css">
+    <link rel="stylesheet" href="/css/fontawesome-5.1.0.css">
+    <link rel="stylesheet" href="/css/scoreboard.css">
+    <link rel="stylesheet" href="/css/services.css">
+  </head>
 
-</head>
+  <body>
+    <div id="app">
 
-<body>
-  <div id="app">
-
-    <nav class="navbar">
-      <a class="navitem navitem-weighty glitch" href="https://enowars.com/">ENOWARS 3</a>
-      <a class="navitem" href="/" v-show="chosenTeam !== null">Current Round</a>
-      <a class="navitem" v-bind:href="'#'+changeAutoreload(!autoreload)">Autoreload <i v-if="autoreload==true" class="far fa-check-circle autoreloadicon"></i></a>
-      <div class="reloaditem" v-show="hasfetchedstreamdata">
-        <div class="lds-spinner">
+      <!-- navigation top bar -->
+      <nav class="navbar">
+        <a class="navitem navitem-weighty glitch" href="https://enowars.com/">
+          ENOWARS 3
+        </a>
+        <a class="navitem" href="/" v-show="chosenTeam !== null">
+          Current Round
+        </a>
+        <a class="navitem" v-bind:href="'#'+changeAutoreload(!autoreload)">
+          Autoreload <i v-if="autoreload==true" class="far fa-check-circle autoreloadicon"></i>
+        </a>
+        <div class="reloaditem" v-show="hasfetchedstreamdata">
+          <div class="lds-spinner"></div>
         </div>
-      </div>
-      <div class="enologo">
-        <a href="https://enoflag.de" target="_blank"><img width="100%" src="img/logo_white.png"></a>
-      </div>
+        <div class="enologo">
+          <a href="https://enoflag.de" target="_blank">
+            <img width="100%" src="img/logo_white.png">
+          </a>
+        </div>
+      </nav>
 
-    </nav>
-
-    <div style="margin-right: 30px ; margin-top: 1em" class="gotoform">
-      Go to:&nbsp;<input class="gotoform-inputfield" v-model.number="currentRound" type="number"
-        v-model.lazy="jsonRound" step="1" :min="0" :max="currentRound" @change="gotoformchanged">
-    </div>
-    <h1>
-
-      <template v-if="jsonRound >= 1">
-        <a v-bind:href="'/#round='+(jsonRound-1)">
-          <i class="fas fa-angle-left navarrow"></i>
-        </a>
-      </template>
-
-      <template v-else>
-        <i class="fas fa-angle-left navarrowdisabled icon"></i>
-      </template>
-      Round {{jsonRound}}
-      <template v-if="chosenTeam != null">
-        <template v-for="(team, listidx) in rounds[0].Teams">
-          <span style="margin-left:150px;" v-if="team.TeamId === +chosenTeam">{{team.Name}}</span>
-        </template>
-      </template>
-      <template v-if="jsonRound < currentRound">
-        <a v-bind:href="'/#round='+(jsonRound+1)">
-          <i class="fas fa-angle-right navarrow"></i>
-        </a>
+      <!-- goto form / #historyrounds form -->
+      <template v-if="chosenTeam == null">
+        <div style="margin-right: 30px; margin-top: 1em" class="gotoform">
+          Go to:&nbsp;<input class="gotoform-inputfield" v-model.number="currentRound" type="number"
+            v-model.lazy="jsonRound" step="1" :min="0" :max="currentRound" @change="gotoformchanged">
+        </div>
       </template>
       <template v-else>
-        <i class="fas fa-angle-right navarrowdisabled icon"></i>
+        <div style="margin-right: 30px; margin-top: 1em" class="gotoform">
+          show #rounds:&nbsp;<input class="gotoform-inputfield" v-model.number="teamviewRounds" type="number"
+            v-model.lazy="teamviewRounds" step="1" :min="3" :max="currentRound" @change="teamviewroundsformchanged">
+        </div>
       </template>
-    </h1>
-
-
-    <template v-if="Object.keys(teams).length == 0">
-      <h1 v-if="showinactive">Currently there's nothing to display.</h1>
-    </template>
-    <template v-else>
-      <div class="scoreboard container-fluid">
-        <div class="row">
-          <div class="col-lg-12">
-            <table class="table table-hover table-bordered">
-              <thead>
-                <tr>
-                  <template v-if="chosenTeam === null">
-                    <th>*</th>
-                    <th>
-                      <span>Team</span>
-                      <!--
-                      <table style="border-spacing:0px;border-style:none;">
-                        <tr>
-                          <td><i class="fas fa-sort-up"></i></td>
-                        </tr>
-                        <tr>
-                          <td><i class="fas fa-sort-down"></i></td>
-                        </tr>
-                      </table>
-                    -->
-                    </th>
-                  </template> 
-                  <template v-else>
-                    <th>#</th>
-                    <th>*</th>
-                  </template>
-                  <template v-for="(service, key) in services">
-                    <th :class="['service-'+service.Name]">
-                      {{service.Name}} 
-                    </th>
-                  </template>
-                  <th>Total</th>
-                </tr>
-              </thead>
-              <tbody>
-                <template v-for="round in rounds">
-                  <template v-for="(team, place) in round.Teams">
-                    <template v-if="chosenTeam === null || team.TeamId === +chosenTeam">
-                      <tr>
-                        <template v-if="chosenTeam === null">
-                          <td>
-                            <div>{{team.rank}}</div>
-                          </td>
-                          <td>
-                            <div><a class="teamlink" v-bind:href="'#team='+team.TeamId">{{team.Name}}</a></div>
-                            <div class="teamurl">team{{team.TeamId}}.enowars.com</div>
-                          </td>
-                        </template>
-                        <template v-else>
-                          <td>
-                            <div>
-                              <a class="teamlink" v-bind:href="'#round='+round.CurrentRound">{{round.CurrentRound}}</a>
-                            </div>
-                          </td>
-                          <td>
-                            <div>{{team.rank}}</div>
-                          </td>
-                        </template>
-                        <template v-for="service in team.ServiceDetails">
-
-                          <td :class="['status-'+statusmappings[service.ServiceStatus]+' service-'+service.ServiceId]">
-                            <div>
-                              <div class="row">
-                                <div class="col-lg-10"><i class="fas fa-flag icon"></i>
-                                  {{service.AttackPoints | twodigits}}</div>
-                              </div>
-                              <div class="row">
-                                <div class="col-lg-10"><i class="fas fa-shield-alt icon"></i>
-                                  {{service.LostDefensePoints | twodigits}}</div>
-                              </div>
-                              <div class="row">
-                                <div class="col-lg-10"><i class="fas fa-tachometer-alt icon"></i>
-                                  {{service.ServiceLevelAgreementPoints | twodigits}}</div>
-                              </div>
-                              <div class="row">
-                                <div :class="['col-lg-10', 'status-'+statusmappings[service.ServiceStatus]]"><i
-                                    class="fas fa-server icon"></i> {{statusmappings[service.ServiceStatus]}}</div>
-                              </div>
-                            </div>
-                          </td>
-                        </template>
-                        <td>
-                          <div>
-                            <div class="row">
-                              <div class="col-lg-10"><i class="fas fa-flag icon"></i>
-                                {{team.AttackPoints | twodigits}}</div>
-                            </div>
-                            <div class="row">
-                              <div class="col-lg-10"><i class="fas fa-shield-alt icon"></i>
-                                {{team.LostDefensePoints | twodigits}}</div>
-                            </div>
-                            <div class="row">
-                              <div class="col-lg-10"><i class="fas fa-tachometer-alt icon"></i>
-                                {{team.ServiceLevelAgreementPoints | twodigits}}</div>
-                            </div>
-                            <div class="row">
-                              <div class="col-lg-10"><i class="fas fa-plus-square icon"></i>
-                                {{team.TotalPoints | twodigits}}</div>
-                            </div>
-                          </div>
-                        </td>
-                      </tr>
+      
+      <!-- headline with nav arrows/round number/team -->
+      <h1 class="headline">
+        <template v-if="chosenTeam != null">
+          <template v-for="(team, listidx) in rounds[0].Teams">
+            <template v-if="team.TeamId === +chosenTeam">
+              <div v-bind:title="team.Name + ` is currently on rank ` + (listidx+1)">
+                <a href="/">
+                  <i class="fas fa-backspace navarrow" title="back"></i>
+                </a>
+                <span style="width: 150px">&nbsp;</span>
+                Team: {{team.Name}}
+                <template v-if="teamdetails != null">
+                  <template v-for="t in teamdetails.Teams">
+                    <template v-if="t.Name == team.Name">
+                      <span v-if="t.University == null" v-bind:title="t.Name+' is from '+t.Country.Name+'.'">
+                        <img v-if="t.LogoUrl != null" :src="t.LogoUrl" alt="Details" width="50px" height="50px"></img>
+                        <i v-if="t.LogoUrl == null" class="fas fa-asterisk" alt="Details" width="50px" height="50px"></i>
+                      </span>
+                      <span v-if="t.University != null" v-bind:title="t.Name+' is from '+t.Country.Name+' ('+t.University+').'">
+                        <img v-if="t.LogoUrl != null" :src="t.LogoUrl" alt="Details" width="50px" height="50px"></img>
+                        <i v-if="t.LogoUrl == null" class="fas fa-asterisk" alt="Details" width="50px" height="50px"></i>
+                      </span>
                     </template>
                   </template>
                 </template>
-              </tbody>
-            </table>
+                <span style="width: 150px">&nbsp;</span>
+              </div>
+            </template>
+          </template>
+        </template>
+        <template v-else>
+          <template v-if="jsonRound >= 1">
+            <a href="/#round=0">
+              <i class="fas fa-angle-double-left navarrow"></i>
+            </a>
+            <a v-bind:href="'/#round='+(jsonRound-1)">
+              <i class="fas fa-angle-left navarrow"></i>
+            </a>
+          </template>
+          <template v-else>
+            <i class="fas fa-angle-double-left navarrowdisabled"></i>
+            <i class="fas fa-angle-left navarrowdisabled"></i>
+          </template>
+          <span style="width: 150px">&nbsp;</span>
+
+          Round {{jsonRound}}
+
+          <span style="width: 150px">&nbsp;</span>
+          <template v-if="jsonRound < currentRound">
+            <a v-bind:href="'/#round='+(jsonRound+1)">
+              <i class="fas fa-angle-right navarrow"></i>
+            </a>
+            <a v-bind:href="'/#round='+currentRound">
+              <i class="fas fa-angle-double-right navarrow"></i>
+            </a>
+          </template>
+          <template v-else>
+            <i class="fas fa-angle-right navarrowdisabled"></i>
+            <i class="fas fa-angle-double-right navarrowdisabled"></i>
+          </template>
+        </template>
+      </h1>
+
+      <!-- data table. the table shows the current round or a chosen round with all teams,
+           or all rounds for the chosen team if there is a chosen one -->
+      <!-- dont draw empty table if no data-->
+      <template v-if="Object.keys(teams).length == 0">
+        <!-- showinactivemessage will be set if still no data after 5s -->
+        <h1 v-if="showinactivemessage">
+          Currently there's nothing to display.<br>
+          Waiting for the first game round...
+        </h1>
+      </template>
+      <!-- data is there, draw table -->
+      <template v-else>
+        <div class="scoreboard container-fluid">
+          <div class="row">
+            <div class="col-lg-12">
+              <table class="table table-hover table-bordered table-dark">
+                <thead class="thead">
+                  <tr>
+                    <template v-if="chosenTeam === null">
+                      <th class="thead" title="rank">*</th>
+                      <th class="thead">
+                        <div style="display: inline; float: left">Team</div>
+                        <div style="display: inline; float: right">
+                          <div style="margin-bottom:-15px;">
+                            <i id="TeamNameAsc" class="fas fa-sort-up" onclick="app.orderteams(`TeamNameAsc`)"></i>
+                          </div>
+                          <div>
+                            <i id="TeamNameDesc" class="fas fa-sort-down" onclick="app.orderteams(`TeamNameDesc`)"></i>
+                          </div>
+                        </div>
+                      </th>
+                    </template> 
+                    <template v-else>
+                      <th class="thead" title="round">#</th>
+                      <th class="thead" title="rank">*</th>
+                    </template>
+                    <template v-for="(service, key) in services">
+                      <th class="thead" :class="['service-'+service.Name]">
+                        <div style="display: inline; float: left">{{service.Name}}</div>
+                        <template v-if="chosenTeam === null">
+                          <div style="display: inline; float: right">
+                            <div style="margin-bottom:-15px;">
+                              <i :id="'ServiceIdAsc='+service.Name" class="fas fa-sort-up" :onclick="'app.orderteams(`ServiceIdAsc='+service.Name+'`)'"></i>
+                            </div>
+                            <div>
+                              <i :id="'ServiceIdDesc='+service.Name" class="fas fa-sort-down" :onclick="'app.orderteams(`ServiceIdDesc='+service.Name+'`)'"></i>
+                            </div>
+                          </div>
+                        </template>
+                      </th>
+                    </template>
+                    <th class="thead">
+                      <div style="display: inline; float: left">Total Points</div>
+                      <div style="display: inline; float: right" v-if="chosenTeam === null">
+                        <div style="margin-bottom:-15px;">
+                          <i id="TotalPointsAsc" class="fas fa-sort-up" onclick="app.orderteams(`TotalPointsAsc`)"></i>
+                        </div>
+                        <div>
+                          <i id="TotalPointsDesc" class="fas fa-sort-down" onclick="app.orderteams(`TotalPointsDesc`)"></i>
+                        </div>
+                      </div>
+                    </th>
+                  </tr>
+                  <template v-if="firstbloods != null && Object.keys(firstbloods).length != 0">
+                    <tr>
+                      <template v-if="chosenTeam === null">
+                        <th class="thead2" title="rank"> </th>
+                        <th class="thead2"> </th>
+                      </template> 
+                      <template v-else>
+                        <th class="thead2" title="round"> </th>
+                        <th class="thead2" title="rank"> </th>
+                      </template>
+                      <template v-for="(service, key) in services">
+                        <th class="thead2" :class="['service-'+service.Name]">  
+                          <div v-if="key in firstbloods.Services" class="firstblooditem">
+                            <i class="fas fa-tint"></i>
+                            <span :title="'Firstblood: Team[s] '+firstbloods.Services[key].TeamName+' in round '+firstbloods.Services[key].Round">{{firstbloods.Services[key].TeamName}}</span>
+                          </div>
+                        </th>
+                      </template>
+                      <th class="thead2">
+                      </th>
+                    </tr>
+                  </template>
+                </thead>
+                <tbody>
+                  <template v-for="round in rounds">
+                    <template v-for="(team, place) in round.Teams">
+                      <template v-if="chosenTeam === null || team.TeamId === +chosenTeam">
+                        <tr>
+                          <template v-if="chosenTeam === null">
+                            <td class="nostatus">
+                              <div>{{team.rank}}</div>
+                            </td>
+                            <td class="nostatus">
+                              <div>
+                                <a class="teamlink" v-bind:href="'#team='+team.TeamId">{{team.Name}}</a>
+                              </div>
+                              <div class="teamurl">team{{team.TeamId}}.enowars.com</div>
+                            </td>
+                          </template>
+                          <template v-else>
+                            <td class="nostatus">
+                              <div>
+                                <a class="teamlink" v-bind:href="'#round='+round.CurrentRound">{{round.CurrentRound}}</a>
+                              </div>
+                            </td>
+                            <td class="nostatus">
+                              <div>{{team.rank}}</div>
+                            </td>
+                          </template>
+                          <template v-for="service in team.ServiceDetails">
+                            <td :class="['status-'+statusmappings[service.ServiceStatus]+' service-'+service.ServiceId]">
+                              <div>
+                                <div class="row">
+                                  <div :class="'col-lg-10 ServiceId='+services[service.ServiceId].Name">
+                                    <i class="fas fa-flag icon" title="Attack Points"></i>
+                                    {{service.AttackPoints | twodigits}}
+                                  </div>
+                                </div>
+                                <div class="row">
+                                  <div class="col-lg-10">
+                                    <i class="fas fa-shield-alt icon" title="Defense Points"></i>
+                                    {{service.LostDefensePoints | twodigits}}
+                                  </div>
+                                </div>
+                                <div class="row">
+                                  <div class="col-lg-10">
+                                    <i class="fas fa-tachometer-alt icon" title="Service Level Agreement Points"></i>
+                                    {{service.ServiceLevelAgreementPoints | twodigits}}
+                                  </div>
+                                </div>
+                                <div class="row">
+                                  <div :class="['col-lg-10', 'status-'+statusmappings[service.ServiceStatus]]">
+                                    <i class="fas fa-server icon" title="Current Status"></i> {{statusmappings[service.ServiceStatus]}}
+                                  </div>
+                                </div>
+                              </div>
+                            </td>
+                          </template>
+                          <td class="nostatus">
+                            <div>
+                              <div class="row">
+                                <div class="col-lg-10">
+                                  <i class="fas fa-flag icon" title="Total Attack Points"></i>
+                                  {{team.AttackPoints | twodigits}}
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col-lg-10">
+                                  <i class="fas fa-shield-alt icon" title="Total Defense Points"></i>
+                                  {{team.LostDefensePoints | twodigits}}
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col-lg-10">
+                                  <i class="fas fa-tachometer-alt icon" title="Total Service Level Agreement Points"></i>
+                                  {{team.ServiceLevelAgreementPoints | twodigits}}
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col-lg-10 TotalPoints">
+                                  <i class="fas fa-trophy icon" title="Total Points"></i>
+                                  {{team.TotalPoints | twodigits}}
+                                </div>
+                              </div>
+                            </div>
+                          </td>
+                        </tr>
+                      </template>
+                    </template>
+                  </template>
+                </tbody>
+              </table>
+              <!-- paceholder -->
+              <div style="width:80px;height:80px;"></div>
+            </div>
           </div>
         </div>
-      </div>
-    </template>
+      </template>
 
-    <nav class="footerbar">
-      <a class="footeritem footeritem-left" href="https://enowars.com/">Entrance Page</a>
-      <a class="footeritem footeritem-center" v-bind:href="'data/scoreboard.json'" target="_blank">Raw
-        JSON</a>
-      <a class="footeritem footeritem-right" href="https://enowars.com/legal.html" target="_blank">Legal Notes</a>
-    </nav>
+      <!-- footer bar for hyperlinks and raw data link -->
+      <nav class="footerbar">
+        <a class="footeritem footeritem-left" href="https://enowars.com/">Entrance Page</a>
+        <template v-if="autoreload === null || autoreload === false">
+            <a class="footeritem footeritem-center" v-bind:href="'data/scoreboard'+jsonRound+'.json'" target="_blank">Raw
+              JSON (Round {{jsonRound}})</a>
+        </template>
+        <template v-else>
+            <a class="footeritem footeritem-center" href="data/scoreboard.json" target="_blank">Raw
+              JSON</a>
+        </template>
+        <a class="footeritem footeritem-right" href="https://enowars.com/legal.html" target="_blank">Legal Notes</a>
+      </nav>
 
-  </div>
+    </div>
 
-  <script src="/js/jquery-3.3.1.min.js"></script>
-  <script src="/js/bootstrap-3.3.7.min.js"></script>
-  <script src="/js/vue.prod.js"></script>
+    <script src="/js/jquery-3.4.1.min.js"></script>
+    <script src="/js/bootstrap-4.3.1.min.js"></script>
+    <script src="/js/vue.prod.js"></script>
+    <script src="/js/scoreboard.js"></script>
+    <script src="/js/services.js"></script>
 
-  <script>
-
-    Vue.filter("twodigits", function roundPoints(points) {
-      return +(Math.round(points + "e+2") + "e-2");
-    });
-
-    var app = new Vue({
-      el: '#app',
-      data() {
-        return {
-          currentRound: 0,
-          jsonRound: 0,
-          teams: [],
-          rounds: [],
-          chosenTeam: null,
-          services: [],
-          hasfetchedstreamdata: false,
-          ws: null,
-          showinactive: false,
-          autoreload: true,
-          orderby: "TotalPointsDesc",
-        }
-      },
-
-      methods: {
-        gotoformchanged: function () {
-          location.hash = "round=" + this.currentRound
-        },
-        changeAutoreload(value) {
-          var route = location.hash.slice(1)
-          var params = new URLSearchParams(route);
-          params.set("autoreload", value)
-          return params.toString()
-        },
-        orderteams: function(orderby) {
-          if (orderby === undefined)
-            orderby = this.orderby
-          switch (orderby) {
-            case "TotalPointsAsc":
-              this.teams = this.teams.sort((x,y) => x["TotalPoints"] - y["TotalPoints"])
-              break
-            case "TotalPointsDesc":
-              this.teams = this.teams.sort((x,y) => y["TotalPoints"] - x["TotalPoints"])
-              break
-            case "TeamNameAsc":
-              this.teams = this.teams.sort((x,y) => x["Name"] > y["Name"])
-              break
-            case "TeamNameDesc":
-              this.teams = this.teams.sort((x,y) => y["Name"] > x["Name"])
-              break
-            default:
-              if (orderby.startsWidth("ServiceIdAsc")) {
-                id = orderby.split("=")[1]
-                for (key in this.services) {
-                  if (key === id) {
-                    this.teams = this.teams.sort((x,y) => x["ServiceDetails"][id]["AttackPoints"] - y["ServiceDetails"][id]["AttackPoints"])
-                    break
-                  }
-                }
-              } else if (orderby.startsWidth("ServiceIdDesc")) {
-                id = orderby.split("=")[1]
-                for (key in this.services) {
-                  if (key === id) {
-                    this.teams = this.teams.sort((x,y) => y["ServiceDetails"][id]["AttackPoints"] - x["ServiceDetails"][id]["AttackPoints"])
-                    break
-                  }
-                }
-              }
-              break
-          }
-        },
-        updateScoreboard: function (currentRound, chosenTeam, rounds) {
-          if (!rounds.length) {
-            console.error("No Data")
-            return;
-          }
-          var json = rounds[0]
-          this.chosenTeam = chosenTeam
-          this.rounds = rounds
-          this.teams = json['Teams']
-          for (key in blacklist) {
-            this.teams = json['Teams'].filter((x) => x.Name !== blacklist[key])
-            for (key in rounds)
-              rounds[key].Teams = rounds[key].Teams.filter((x) => x.Name !== "ENOOP")
-          }
-          this.orderteams("TotalPointsDesc")
-          i = 1;
-          for (team in this.teams) {
-            this.teams[team].rank = i;
-            i++;
-          }
-          for (round in this.rounds) {
-            j = 1;
-            for (team in this.rounds[round].Teams) {
-              rounds[round]['Teams'][team].rank = j
-              j++
-            }
-          }
-          this.orderteams()
-          this.services = json['Services']
-          this.jsonRound = json["CurrentRound"]
-          this.currentRound = currentRound
-        },
-        parseRoute: function (currentRound) {
-          console.log("Current Round", currentRound)
-          window.onhashchange = () => { }
-
-          var route = location.hash.slice(1)
-
-          var params = new URLSearchParams(route);
-          var requestedRound = params.get("round")
-          this.autoreload = params.get("autoreload")
-          var chosenTeam = params.get("team")
-
-          if (requestedRound === null && this.autoreload === null) {
-            window.location.hash += "&autoreload=true"
-            this.autoreload = true
-          }
-          requestedRound = requestedRound ? +requestedRound : currentRound
-
-          var loadRound = 0;
-          if (requestedRound !== null && +requestedRound <= +currentRound && !(this.autoreload)) {
-            loadRound = +requestedRound
-            this.autoreload = false
-          }
-          else {
-            loadRound = currentRound
-            if (this.autoreload == "false") {
-              this.autoreload = false
-            } else {
-              this.autoreload = true
-            }
-          }
-
-          params.set("round", loadRound)
-          params.set("autoreload", this.autoreload)
-          location.hash = params.toString()
-
-          if (chosenTeam == null) {
-            // Normal view
-            roundCount = 1
-          } else {
-            // Team view
-            var roundCount = 10;
-          }
-          var jsons = []
-
-          function getJsonRek(i) {
-            if (i >= roundCount || loadRound - i < 0) {
-              app.updateScoreboard(+currentRound, chosenTeam, jsons)
-              window.onhashchange = () => app.parseRoute(+currentRound)
-            } else {
-              $.get("./data/scoreboard" + (loadRound - i) + ".json", (json) => {
-                jsons.push(json)
-                getJsonRek(i + 1)
-              })
-            }
-          }
-          getJsonRek(0)
-        }
-      },
-      created: function () {
-        setTimeout(() => this.showinactive = true, 5000)
-        // Websocket stuff.
-        var route = location.hash.slice(1)
-
-        // No route to host
-        if (route < 3) {
-          window.location.hash = "autoreload=true"
-        }
-
-        function connect() {
-          var wsProt = "ws://"
-          if (location.protocol === "https:")  {
-            wsProt = "wss://"
-          }
-          this.ws = new WebSocket(wsProt + document.domain + ':' + location.port + '/reload');
-          this.ws.onmessage = function (event) {
-            // event contains the current round.
-            app.parseRoute(event.data)
-            app.hasfetchedstreamdata = true;
-            setTimeout(function () {
-              app.hasfetchedstreamdata = false;
-            }, 1000);
-
-            setTimeout(function () {
-              try {
-                app.ws.send("ping");
-              } catch {
-                console.log("ping failed. ws closed(?)")
-              }
-            }, 15000);
-
-            window.onhashchange = () => app.parseRoute(event.data);
-            //window.onpopstate = () => app.parseRoute(event.data);
-
-
-          };
-          this.ws.onclose = function () {
-            console.log("WS closed. Try to reconnect in 5 seconds")
-            setTimeout(function () { connect() }, 5000);
-          }
-          this.ws.error = this.ws.onclose
-        }
-        connect()
-      }
-    })
-  </script>
-</body>
+  </body>
 
 </html>
