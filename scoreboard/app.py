@@ -40,7 +40,7 @@ SCOREBOARD_JSON = SCOREBOARD_JSONPATH + "scoreboard.json"
 SCOREBOARD_FIRSTBLOOD = SCOREBOARD_JSONPATH + "scoreboard_firstblood.json"
 SCOREBOARD_TEAMEXPORT = SCOREBOARD_JSONPATH + "scoreboard_teamdetails.json"
 JSON_UPDATE_INTERVAL = 180  # [s], fitting the engine frequency, to warn on input delay
-LASTROUNDINDICATOR = 0 # 0 for filenames, 1 for SCOREBOARD_JSON.data
+LASTROUNDINDICATOR = 1 # 0 for filenames, 1 for SCOREBOARD_JSON.data
 
 TEAMDETAILS_SOURCE = "https://enowars.com/secret/export?pw=4KafFAzxB4NWL"
 SERVICES_CSS = "css/services.css"
@@ -167,7 +167,7 @@ servicestatusnum2string[4] = "Down"
 new_round_event = asyncio.Event()
 json_count = 0
 current_round = 0
-firstblooddata = Firstblooddata(None, False, dict())
+firstblooddata = Firstblooddata(-1, False, dict())
 
 
 
@@ -205,11 +205,12 @@ def readjsoninput(round=None):
 
 # determinates the current round, fires an event if there's a new round
 def update_current_round():
-    perfanalysis("used time for determinating new round", "start")
-
     global current_round
     global new_round_event
     global json_count
+    global LASTROUNDINDICATOR
+
+    perfanalysis("used time for determinating new round", "start")
     last_round = current_round
 
     logging.info(f"current round: {current_round}")
@@ -232,7 +233,8 @@ def update_current_round():
             perfanalysis("parsing json input", "stop")
             current_round = jsondata.CurrentRound
         except Exception as e:
-            logging.error("Input JSON does not match expected format, cannot extract current round: " + str(e))
+            LASTROUNDINDICATOR = 0 # fallback
+            update_current_round()
             return
     else:
         logging.critical("Invalid value for constant LASTROUNDINDICATOR: " + LASTROUNDINDICATOR)
@@ -252,14 +254,12 @@ def update_current_round():
 # loads already calculated firstblood data
 def load_firstblood():
     global firstblooddata
+    global current_round
 
     perfanalysis("used time for loading firstblood: checking current state", "start")
     try:
         if os.path.isfile(Path(SCOREBOARD_FIRSTBLOOD)):
             firstblooddata = jsons.loads(Path(SCOREBOARD_FIRSTBLOOD).read_text(), Firstblooddata)
-        else:
-            firstblooddata.CurrentRound = -1
-            return
     except Exception as e:
         logging.error(f"Exception while trying to load and work on file {Path(SCOREBOARD_FIRSTBLOOD)}: " + str(e))
 
@@ -276,10 +276,31 @@ def load_firstblood():
 
 
 
+# write firstblood data to disk
+def store_firstblood():
+    global firstblooddata
+    global current_round
+
+    perfanalysis("used time for calculating firstblood: storing results", "start")
+    try:
+        ugly_json = jsons.dumps(firstblooddata, indent=4, sort_keys=True)
+        json.loads(ugly_json)
+        nice_json = json.dumps(json.loads(ugly_json), indent=2, sort_keys=True)
+
+        with open(SCOREBOARD_FIRSTBLOOD, "wt+", encoding="utf-8") as f:
+            f.write(nice_json)
+        logging.info("updating firstblood file successfull")
+    except Exception as e:
+        logging.error(f"Exception while trying to save JSON file {Path(SCOREBOARD_FIRSTBLOOD)}: " + str(e))
+    perfanalysis("used time for calculating firstblood: storing results", "stop")
+
+
+
 # updates the firstblood data
 def update_firstblood():
     global firstblooddata
-    
+    global current_round
+
     # find firstbloods
     try:
         perfanalysis("used time for calculating firstblood: searching new data", "start")
@@ -307,8 +328,6 @@ def update_firstblood():
             for (key, service) in firstblooddata.Services.items():
                 if service.TeamName == "":
                     iscomplete = False
-                else:
-                    logging.info(f"firstblood for service {key} by {service.Teamname}")
             firstblooddata.IsComplete = iscomplete
 
             # postprocess data
@@ -325,20 +344,9 @@ def update_firstblood():
 
     except Exception as e:
         logging.error(f"Exception while trying to load and work on JSON file {Path(SCOREBOARD_FIRSTBLOOD)}: " + str(e))
+        return
 
-    # write firstblood data to disk
-    perfanalysis("used time for calculating firstblood: storing results", "start")
-    try:
-        ugly_json = jsons.dumps(firstblooddata, indent=4, sort_keys=True)
-        json.loads(ugly_json)
-        nice_json = json.dumps(json.loads(ugly_json), indent=2, sort_keys=True)
-
-        with open(SCOREBOARD_FIRSTBLOOD, "wt+", encoding="utf-8") as f:
-            f.write(nice_json)
-        logging.info("updating firstblood file successfull")
-    except Exception as e:
-        logging.error(f"Exception while trying to save JSON file {Path(SCOREBOARD_FIRSTBLOOD)}: " + str(e))
-    perfanalysis("used time for calculating firstblood: storing results", "stop")
+    store_firstblood()
 
 
 
@@ -357,18 +365,28 @@ app.add_task(scoreboard_loop())
 # loops, waits for a new round, updates firstblood information then
 async def firstblood_loop():
     global firstblooddata
+    global new_round_event
+    global current_round
+
+    if not os.path.exists(SCOREBOARD_FIRSTBLOOD):
+        store_firstblood()
+
+    while not os.path.exists(SCOREBOARD_JSON):
+        await asyncio.sleep(30)
+
     load_firstblood()
     if firstblooddata.CurrentRound < current_round and not firstblooddata.IsComplete:
         update_firstblood()
     while True:
-        try:
-            if firstblooddata.IsComplete:
-                logging.info("firstblood data completed, exiting task")
-                return
-            else:
+        if firstblooddata.IsComplete:
+            logging.info("firstblood data completed, exiting task")
+            return
+        else:
+            try:
                 await new_round_event.wait()
-        except Exception as e:
-            logging.error("firstblood loop crashed: " + str(e))
+                update_firstblood()
+            except Exception as e:
+                logging.error("firstblood loop crashed: " + str(e))
 app.add_task(firstblood_loop())
 
 
@@ -376,29 +394,40 @@ app.add_task(firstblood_loop())
 # prepares teamdetails
 @app.middleware('before_server_start')
 async def fetch_teamexport(app, loop):
-    if os.path.exists(SCOREBOARD_TEAMEXPORT):
-        logging.info("Team export data already existing")
-    else:
-        logging.info("Team export data missing, fetching them")
-        try:
-            r = requests.get(TEAMDETAILS_SOURCE)
-        except Exception as e:
-            logging.warning(f"Failed to fetch team details via HTTP GET request ({TEAMDETAILS_SOURCE}).")
-            try:
-                with open(SCOREBOARD_TEAMEXPORT, "wb") as f:  
-                    f.write("{}")
-                    f.close()
-            except Exception as e:
-                logging.error(f"Error creating file {SCOREBOARD_TEAMEXPORT}: " + str(e))
+    if os.path.exists(SCOREBOARD_TEAMEXPORT) and os.path.getsize(SCOREBOARD_TEAMEXPORT) > 10:
+        if os.path.getmtime(SCOREBOARD_TEAMEXPORT) + 60*60*3 > time.time():
+            logging.info("Team export data already existing")
             return
+        else:
+            logging.info("Team export data too old (>3h), removing them")
+            try:
+                os.remove(SCOREBOARD_TEAMEXPORT)
+            except Exception as e:
+                logging.error(f"Error deleting file {SCOREBOARD_TEAMEXPORT}: " + str(e))
+
+    logging.info("Team export data missing, fetching them")
+    try:
+        r = requests.get(TEAMDETAILS_SOURCE)
+    except Exception as e:
+        logging.warning(f"Failed to fetch team details via HTTP GET request ({TEAMDETAILS_SOURCE}). Scoreboard will run without team details for now.")
         try:
-            with open(SCOREBOARD_TEAMEXPORT, "wb") as f:  
-                # all data already escaped at source
-                f.write(r.content)
+            with open(SCOREBOARD_TEAMEXPORT, "w") as f:  
+                f.write("{}")
                 f.close()
-                logging.info("Team detail data written successfully.")
         except Exception as e:
-            logging.error("Error saving team details to disk: " + str(e))
+            logging.error(f"Error creating file {SCOREBOARD_TEAMEXPORT}: " + str(e))
+        logging.info("Retry to fetch team details via HTTP GET request in 300 seconds.")
+        await asyncio.sleep(300)
+        await fetch_teamexport(app, loop)
+        return
+    try:
+        with open(SCOREBOARD_TEAMEXPORT, "wb") as f:  
+            # all data already escaped at source
+            f.write(r.content)
+            f.close()
+            logging.info("Team detail data written successfully")
+    except Exception as e:
+        logging.error("Error saving team details to disk: " + str(e))
 app.register_listener(fetch_teamexport, 'before_server_start')
 
 
@@ -406,13 +435,16 @@ app.register_listener(fetch_teamexport, 'before_server_start')
 # prepares service specific css
 @app.middleware('before_server_start')
 async def create_servicecss(app, loop):
+
     loc = os.path.dirname(__file__)+"/"+SERVICES_CSS
     jsondata = []
 
     try:
+        while not os.path.exists(SCOREBOARD_JSON):
+            await asyncio.sleep(30)
         jsondata = jsons.loads(readjsoninput(), Jsoninputdata)
     except Exception as e:
-        logging.error("Input JSON does not match expected format, cannot extract current round: " + str(e))
+        logging.error("Input JSON missing/not valid: " + str(e))
         return
 
     try:
