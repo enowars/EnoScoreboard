@@ -38,11 +38,9 @@ PORT = 8000
 SCOREBOARD_JSONPATH = "/data/"
 SCOREBOARD_JSON = SCOREBOARD_JSONPATH + "scoreboard.json"
 SCOREBOARD_FIRSTBLOOD = SCOREBOARD_JSONPATH + "scoreboard_firstblood.json"
-SCOREBOARD_TEAMEXPORT = SCOREBOARD_JSONPATH + "scoreboard_teamdetails.json"
 JSON_UPDATE_INTERVAL = 180  # [s], fitting the engine frequency, to warn on input delay
 LASTROUNDINDICATOR = 1 # 0 for filenames, 1 for SCOREBOARD_JSON.data
 
-TEAMDETAILS_SOURCE = "https://enowars.com/secret/export?pw=4KafFAzxB4NWL"
 SERVICES_CSS = "css/services.css"
 
 scoreboard_inputfilename_regex = re.compile("scoreboard([0-9]+).json")
@@ -307,7 +305,7 @@ def update_firstblood():
         logging.info("last calculated firstblood round: " + str(firstblooddata.CurrentRound))
         if (firstblooddata.CurrentRound > current_round+10):
             logging.info("catching up may take a moment...")
-        
+
         # parse every missing round for firstbloods
         for i in range (firstblooddata.CurrentRound+1, current_round+1):
             logging.info(f"checking previous round {i} for firstbloods")
@@ -388,47 +386,6 @@ async def firstblood_loop():
             except Exception as e:
                 logging.error("firstblood loop crashed: " + str(e))
 app.add_task(firstblood_loop())
-
-
-
-# prepares teamdetails
-@app.middleware('before_server_start')
-async def fetch_teamexport(app, loop):
-    if os.path.exists(SCOREBOARD_TEAMEXPORT) and os.path.getsize(SCOREBOARD_TEAMEXPORT) > 10:
-        if os.path.getmtime(SCOREBOARD_TEAMEXPORT) + 60*60*3 > time.time():
-            logging.info("Team export data already existing")
-            return
-        else:
-            logging.info("Team export data too old (>3h), removing them")
-            try:
-                os.remove(SCOREBOARD_TEAMEXPORT)
-            except Exception as e:
-                logging.error(f"Error deleting file {SCOREBOARD_TEAMEXPORT}: " + str(e))
-
-    logging.info("Team export data missing, fetching them")
-    try:
-        r = requests.get(TEAMDETAILS_SOURCE)
-    except Exception as e:
-        logging.warning(f"Failed to fetch team details via HTTP GET request ({TEAMDETAILS_SOURCE}). Scoreboard will run without team details for now.")
-        try:
-            with open(SCOREBOARD_TEAMEXPORT, "w") as f:  
-                f.write("{}")
-                f.close()
-        except Exception as e:
-            logging.error(f"Error creating file {SCOREBOARD_TEAMEXPORT}: " + str(e))
-        logging.info("Retry to fetch team details via HTTP GET request in 300 seconds.")
-        await asyncio.sleep(300)
-        await fetch_teamexport(app, loop)
-        return
-    try:
-        with open(SCOREBOARD_TEAMEXPORT, "wb") as f:  
-            # all data already escaped at source
-            f.write(r.content)
-            f.close()
-            logging.info("Team detail data written successfully")
-    except Exception as e:
-        logging.error("Error saving team details to disk: " + str(e))
-app.register_listener(fetch_teamexport, 'before_server_start')
 
 
 
